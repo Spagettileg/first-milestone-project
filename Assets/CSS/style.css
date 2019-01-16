@@ -1,0 +1,59 @@
+
+/*---------------Colours--------------*/
+
+
+/*----------Special Padding / Margin / Text----------*/
+
+
+/*---------------Alert Heading---------*/
+
+
+
+/*-------------Band Member Image------*/
+
+
+
+/*---------------Heading--------------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.guitar {
+    background: url("../images/the-monkees-logo-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #676767; /*Dark Grey*/
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+
+/*-------------Containers-------------*/
+/* To include tailorting for Home / Music / Hey Hey!/ Events & Tickets */
+
+
+/*------------Music Timeline----------*/
+
+
+/*------------Band Carousel-----------*/
+
+
+/*---------------Footer---------------*/
+/* To include styling for social media fonts > font awesome */ 
+
+
+/*---------------Buttons--------------*/
+
+
+/*---------------Hover.CSS------------*/
+
+
