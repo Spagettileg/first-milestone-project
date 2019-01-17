@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
 
 /*---------------Colours--------------*/
 
@@ -21,13 +22,14 @@
 
 /*------------Navbar----------------*/
 
+
 body {
     margin: 0;
     padding: 0;
-    font-family: Bangers, cursive, sans-serif;
+    font-family: Bangers, cursive;
 }
 
-.nav ul {
+nav ul {
     list-style: none; 
     background-color: #C43232;
     text-align: center;
@@ -35,7 +37,7 @@ body {
     padding: 0;
 }
 
-.nav li {
+nav li {
     font-size: 1.2em;
     line-height: 40px;
     height: 40px;
@@ -43,13 +45,13 @@ body {
     margin-left: 2.5%;
 }
 
-.nav a {
+nav a {
     text-decoration: none;
     color: #E5C66C;
     display: block;
 }
 
-.nav a:hover {
+nav a:hover {
     background-color: #E5C66C;
     color: #C43232;
 }
