@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale-1.0"><!-- Mobile 1st Design -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
@@ -15,45 +15,109 @@
     
     
     <body>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="music.html">Music</a></li>
-				<li><a href="heyhey.html">HeyHey!</a></li>
-				<li><a href="eventsandtickets.html">Events & Tickets</a></li>
-            </ul>
-        </nav>
+        <!--Navbar-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid alert-container hidden-xs">
+               <div class="row">
+                    <div class="col-xs-12">
+                        <div class="site-wide-alert alert alert-warning">
+                        <strong>Concert Booking & Tickets Sale!</strong><a href=""> Click to view availability</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="container-fluid">
+            <div class="navbar-header">
+            
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        </div>
+    <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Music</a></li> 
+            <li><a href="/">Hey Hey</a></li>
+            <li><a href="/">Events & Tickets</a></li>
+        </ul>
+    </div>
+    </nav>
+        <!--Navbar collapse--> 
         
+        <!--Picture Gallery Header-->
         <header class="container-fluid">
             <div class="row">
                 <ul class="list-inline clearfix">
                 <li class="col-xs-6 col-sm-4">
                     <a href="index.html">
-                        <img src="images/themonkeeslogo.jpg" alt="The Monkees" height=250 width=430>
+                        <img src="assets/images/themonkeeslogo.jpg" alt="The Monkees" height=250 width=430>
                     </a> 
                 </li>
                 <li class="col-xs-6 col-sm-2">
-                        <img src="images/mn.jpg" alt="Mike Nesmith" height=250 width=250>
+                        <img src="assets/images/mn.jpg" alt="Mike Nesmith" height=250 width=250>
                 </li>
                 <li class="col-xs-6 col-sm-2">
-                        <img src="images/dj.jpg" alt="Davy Jones" height=250 width=250>
+                        <img src="assets/images/dj.jpg" alt="Davy Jones" height=250 width=250>
                 </li>
                 <li class="col-xs-6 col-sm-2">
-                        <img src="images/md.jpg" alt="Micky Dolenz" height=250 width=250>
+                        <img src="assets/images/md.jpg" alt="Micky Dolenz" height=250 width=250>
                 </li>
                 <li class="col-xs-6 col-sm-2">
-                        <img src="images/pt.jpg" alt="Peter Tork" height=250 width=250>  
+                        <img src="assets/images/pt.jpg" alt="Peter Tork" height=250 width=250>  
                 </li>
                 
                 </ul>
                 
             </div>
-            
-                
+        <!--End Picture Gallery Header-->   
               
         </header>
         
         <section>
+            <!--Band performing image-->
+            <div class="container-fluid group-image-container">
+                    <div class="row">
+                        <div class="col-xs-12 group-image-column">
+                            <div class="opaque-overlay">&nbsp;</div>
+                            <img src="assets/images/monkees.jpg" alt="The Monkees">
+                        </div>
+                    </div>
+                </div>
+            <!--End Band performing image-->
+            
+            <!--Hot News!-->
+            <div class="container-fluid news-headline-container">
+                <div class="row">
+                    <strong>Hot News!</strong>
+                </div>
+            </div>
+            
+            <div class="container-fluid 50-years-container">
+                <div class="row">
+                    <div class="col-xs-12 50-years-news">
+                        <p> 
+                            To celebrate the band's 50th anniversary, they released a record called Good Times.
+                            It's their first new album in 20 years and the first since the passing of heartthrob Davy Jones in 2012.
+                        </p>
+                        <p>
+                            2019 US Tour dates released (1st March - 15 March)
+                        </p>
+                        <p>
+                            2019 New Zealand Tour dates released (8th June - 10th June) 
+                        </p>
+                        <p>
+                            2019 Australia Tour date released (15th June)
+                        </p>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
             
         </section>
         
@@ -61,6 +125,11 @@
             
         </footer>
         
+        <!-- Add Javascript Bootstrap code from both Bootstrap 'getting started' and 'JQuery CDN' = JQuery Core 3.3.1, minified --> 
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>
     
 </html>
