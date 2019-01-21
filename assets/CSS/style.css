@@ -14,13 +14,19 @@
     background-color: #E5C66C;
 }
 
+.bg-color-grey {
+    background-color: rgba(0,0,0,.05)
+}
+
+.bg-color-lower-footer {
+    background-color: #525252;
+}
+
 /*----------Special Padding / Margin / Text----------*/
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Bangers, cursive;
-    font-weight: 200;
 }
 
 
@@ -33,7 +39,7 @@ body {
 }
 
 .site-wide-alert {
-
+    font-family: Bangers, cursive;
     color: #C43232;
     background-color: #E5C66C;
     border-color: #E5C66C;
@@ -45,10 +51,12 @@ body {
 
 .site-wide-alert a {
     border: 0;
+    padding: 1px;
     margin-left: 10px;
     text-decoration: none;
     display: inline-block;
     background-color: #C43232;
+    border-color: #C43232;
     color: #E5C66C;
     height: 22px;
     border-radius: 5%;
@@ -124,14 +132,30 @@ body {
 
 /*-------------Band Member Image------*/
 
+.band-member.image {
+    padding: 0; 
+    margin: 0;
+    display: flex; /*can try flex*/ 
+    align-items: center;
+    justify-content: center; /*required to manage the horixontal centering of the 
+    callout design*/
+    position: relative;
+}
+
 
 /*---------------Heading--------------*/
 
 
 /*-------------Containers-------------*/
-/* To include tailoring for Home / Music / HeyHey!/ Events & Tickets */
+/* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
-
+.upcoming-tour-dates-container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Bangers, cursive;
+    color: #fafafa;
+}
 
 
 
@@ -142,9 +166,28 @@ body {
 /*------------Band Carousel-----------*/
 
 
-/*---------------Footer---------------*/
+/*---------------Footer Higher---------------*/
 /* To include styling for social media fonts > font awesome */ 
 
+.bg-color-social-container {
+    background-color: #6CB8AC;
+    min-height: 20px;
+    margin: 0;
+    padding-top: 10px 
+}
+
+
+/*---------------Footer Lower---------------*/
+
+.lower-footer-style {
+    color: #fafafa; /*off-white*/
+    min-height: 20px;
+    font-family: Oswald, sans-serif;
+    font-size: smaller;
+    text-align: center;
+    margin: 0;
+    padding-top: 5px 
+}
 
 /*---------------Buttons--------------*/
 
