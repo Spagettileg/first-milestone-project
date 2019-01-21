@@ -78,6 +78,24 @@ body {
 
 /*---------------Buttons--------------*/
 
+.btn-cta {
+    
+}
+
+.btn-link {
+    font-weight: bold;
+    border-radius: 17px;
+    width: 120px; 
+    color: white;
+    background-color: rgba(196,50,50,0.8);
+    border-color: rgba(196,50,50,0.8);
+}
+
+.btn-link:hover {
+    background-color: #C43232; /*slightly darker colour for contrast on button*/
+    border-color: #C43232;
+    color: white;
+}
 
 /*---------------Hover.CSS------------*/
 
