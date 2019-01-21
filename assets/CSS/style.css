@@ -16,16 +16,83 @@
 
 /*----------Special Padding / Margin / Text----------*/
 
-
-/*---------------Alert Heading---------*/
-
-
-/*------------Navbar----------------*/
-
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Bangers, cursive;
+    font-weight: 200;
+}
+
+
+
+/*---------------Alert Heading---------*/
+
+.alert-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+
+    color: #C43232;
+    background-color: #E5C66C;
+    border-color: #E5C66C;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    border: 2px solid transparent;
+    border-radius: 0;
+}
+
+.site-wide-alert a {
+    border: 0;
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #C43232;
+    color: #E5C66C;
+    height: 22px;
+    border-radius: 5%;
+}
+
+/*------------Navbar----------------*/
+
+.navbar {
+
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0,.05);
+    border: 0;
+
+}
+
+.navbar-default .navbar-collapse {
+
+    border-color: transparent;
+
+}
+
+.navbar-default .navbar-toggle {
+
+    border: 0;
+
+}
+
+
+.navbar-default .navbar-toggle:hover {
+
+    background-color: transparent;
+
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+
+    background-color: #C43232;
+
 }
 
 .nav ul {
@@ -37,11 +104,11 @@ body {
 }
 
 .nav li {
-    font-size: 1.2em;
-    line-height: 40px;
-    height: 40px;
+    font-size: 1.5em;
+    line-height: 35px;
+    height: 35px;
     display: inline-block;
-    margin-left: 2.5%;
+    margin-left: 4.5%;
 }
 
 .nav a {
@@ -66,6 +133,9 @@ body {
 
 
 
+
+
+
 /*------------Music Timeline----------*/
 
 
@@ -86,7 +156,7 @@ body {
     font-weight: bold;
     border-radius: 17px;
     width: 120px; 
-    color: white;
+    color: #ffffff;
     background-color: rgba(196,50,50,0.8);
     border-color: rgba(196,50,50,0.8);
 }
@@ -94,7 +164,8 @@ body {
 .btn-link:hover {
     background-color: #C43232; /*slightly darker colour for contrast on button*/
     border-color: #C43232;
-    color: white;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 /*---------------Hover.CSS------------*/
