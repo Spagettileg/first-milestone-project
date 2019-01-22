@@ -11,7 +11,7 @@
 }
 
 .bg-color-yellow {
-    background-color: #E5C66C;
+    background-color: #f7eed4;
 }
 
 .bg-color-grey {
@@ -67,12 +67,12 @@ body {
 .navbar {
 
     margin-bottom: 0;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1;
-    background-color: rgba(0,0,0,.05);
+    background-color: #0d0d0d; /*Almost black*/
     border: 0;
 
 }
@@ -121,26 +121,38 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #E5C66C;
+    color: #f7eed4;
     display: block;
 }
 
-.nav a:hover {
-    background-color: #E5C66C;
+.navbar-collapse ul li a:hover {
+    background-color: #C43232;
     color: #C43232;
 }
 
-/*-------------Band Member Image------*/
+/*-------------Images------*/
 
-.band-member.image {
-    padding: 0; 
+.group-image-container {
     margin: 0;
-    display: flex; /*can try flex*/ 
-    align-items: center;
-    justify-content: center; /*required to manage the horixontal centering of the 
-    callout design*/
-    position: relative;
+    padding-top: 102px;
 }
+
+.group-image-column {
+    padding: 0;
+    width: 100%;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 
 /*---------------Heading--------------*/
@@ -149,15 +161,44 @@ body {
 /*-------------Containers-------------*/
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
+.container-wrapper-almost-black {
+    background-color: #0d0d0d; /*Almost Black*/
+    color: #cccccc; /*Light Grey*/
+}
+
+
+
 .upcoming-tour-dates-container {
     margin: 0;
     padding: 0;
     text-align: center;
     font-family: Bangers, cursive;
-    color: #fafafa;
+    font-size: 25px;
+    color: #f7eed4;
 }
 
+.hot-news-headline-container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Bangers, cursive;
+    font-size: 25px;
+    color: #f7eed4;
+}
 
+.50-years-container {
+    
+} 
+    
+
+/*-----------Buy Tickets--------------*/
+
+.buy-tickets {
+    font-family: Bangers, cursive;
+    font-weight: 200;
+    font-size: 20px;
+    color: #C43232
+}
 
 
 /*------------Music Timeline----------*/
@@ -199,7 +240,7 @@ body {
     font-weight: bold;
     border-radius: 17px;
     width: 120px; 
-    color: #ffffff;
+    color: #f7eed4;
     background-color: rgba(196,50,50,0.8);
     border-color: rgba(196,50,50,0.8);
 }
@@ -207,7 +248,7 @@ body {
 .btn-link:hover {
     background-color: #C43232; /*slightly darker colour for contrast on button*/
     border-color: #C43232;
-    color: #ffffff;
+    color: #fafafa;
     text-decoration: none;
 }
 
