@@ -24,10 +24,8 @@
 
 /*----------Special Padding / Margin / Text----------*/
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
+
 
 
 
@@ -41,6 +39,7 @@ body {
 .site-wide-alert {
     font-family: Bangers, cursive;
     color: #C43232;
+    text-align: center;
     background-color: #E5C66C;
     border-color: #E5C66C;
     padding: 5px 20px;
@@ -58,83 +57,56 @@ body {
     background-color: #C43232;
     border-color: #C43232;
     color: #E5C66C;
-    height: 22px;
+    height: 25px;
     border-radius: 5%;
 }
 
 /*------------Navbar----------------*/
 
 .navbar {
-
+    height: 75px;
     margin-bottom: 0;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
+    border: none;
+    padding: 0;    
     z-index: 1;
-    background-color: #0d0d0d; /*Almost black*/
-    border: 0;
-
+    background-color: #ffffff; /*White*/
+    color: #C43232;
+    font-family: Bangers, cursive;
 }
 
-.navbar-default .navbar-collapse {
-
-    border-color: transparent;
-
+.nav-bg {
+    background-color: #ffffff;
 }
 
-.navbar-default .navbar-toggle {
-
-    border: 0;
-
+.navbar-nav li a {
+    color: #ffffff;
+    font-size: 1.5em;
 }
 
-
-.navbar-default .navbar-toggle:hover {
-
-    background-color: transparent;
-
+.navbar-nav li a:hover {
+    background-color: #ffffff;
+    color: #C43232;
 }
 
+.navbar-header {
+    padding-bottom: 25px;
+}
+
+.navbar-brand {
+    margin: 4px;
+    padding: 2px;
+    
+}
 
 .navbar-default .navbar-toggle .icon-bar {
-
     background-color: #C43232;
-
-}
-
-.nav ul {
-    list-style: none; 
-    background-color: #C43232;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-.nav li {
-    font-size: 1.5em;
-    line-height: 35px;
-    height: 35px;
-    display: inline-block;
-    margin-left: 4.5%;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #f7eed4;
-    display: block;
-}
-
-.navbar-collapse ul li a:hover {
-    background-color: #C43232;
-    color: #C43232;
 }
 
 /*-------------Images------*/
 
 .group-image-container {
     margin: 0;
-    padding-top: 102px;
+    padding-top: 134px;
 }
 
 .group-image-column {
@@ -151,31 +123,11 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-
-
-
-
 /*---------------Heading--------------*/
 
 
 /*-------------Containers-------------*/
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
-
-.container-wrapper-almost-black {
-    background-color: #0d0d0d; /*Almost Black*/
-    color: #cccccc; /*Light Grey*/
-}
-
-
-
-.upcoming-tour-dates-container {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: Bangers, cursive;
-    font-size: 25px;
-    color: #f7eed4;
-}
 
 .hot-news-headline-container {
     margin: 0;
@@ -189,7 +141,16 @@ body {
 .50-years-container {
     
 } 
-    
+
+.upcoming-tour-dates-container {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Bangers, cursive;
+    font-size: 25px;
+    color: #f7eed4;
+}
+
 
 /*-----------Buy Tickets--------------*/
 
@@ -246,8 +207,8 @@ body {
 }
 
 .btn-link:hover {
-    background-color: #C43232; /*slightly darker colour for contrast on button*/
-    border-color: #C43232;
+    background-color: #6CB8AC; /*Change to green once hovered*/
+    border-color: #6CB8AC;
     color: #fafafa;
     text-decoration: none;
 }
