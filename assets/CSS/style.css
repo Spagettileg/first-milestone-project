@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700');
 
+/*----------Special Padding / Margin / Text----------*/
+
+
 /*---------------Colours--------------*/
 
 .bg-color-red {
@@ -21,12 +24,6 @@
 .bg-color-lower-footer {
     background-color: #525252;
 }
-
-/*----------Special Padding / Margin / Text----------*/
-
-
-
-
 
 
 /*---------------Alert Heading---------*/
@@ -89,7 +86,7 @@
 }
 
 .navbar-header {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .navbar-brand {
@@ -106,7 +103,8 @@
 
 .group-image-container {
     margin: 0;
-    padding-top: 134px;
+    
+    
 }
 
 .group-image-column {
