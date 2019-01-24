@@ -4,7 +4,12 @@ Welcome!
 
 ***
 
-[Direct link to live project] (https://github.com/Spagettileg/first-milestone-project)
+Link to the website
+https://first-milestone-project-spagettileg.c9users.io/index.html
+
+Link to Cloud9 Development
+https://ide.c9.io/spagettileg/first-milestone-project
+
 
 ***
 
