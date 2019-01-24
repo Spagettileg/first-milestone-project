@@ -3,6 +3,7 @@
 /*----------Special Padding / Margin / Text----------*/
 
 
+
 /*---------------Colours--------------*/
 
 .bg-color-red {
@@ -15,10 +16,6 @@
 
 .bg-color-yellow {
     background-color: #f7eed4;
-}
-
-.bg-color-grey {
-    background-color: rgba(0,0,0,.05)
 }
 
 .bg-color-lower-footer {
@@ -61,55 +58,58 @@
 /*------------Navbar----------------*/
 
 .navbar {
-    height: 75px;
+    height: 134px;
     margin-bottom: 0;
     border: none;
     padding: 0;    
     z-index: 1;
-    background-color: #ffffff; /*White*/
-    color: #C43232;
+    background-color: #C43232; /*Red*/
     font-family: Bangers, cursive;
 }
 
-.nav-bg {
-    background-color: #ffffff;
-}
-
 .navbar-nav li a {
-    color: #ffffff;
-    font-size: 1.5em;
+    background-color: transparent;
+    font-size: 2em;
+    text-align: right;
 }
 
 .navbar-nav li a:hover {
-    background-color: #ffffff;
+    background-color: #fafafa;
     color: #C43232;
 }
 
-.navbar-header {
-    padding-bottom: 50px;
-}
-
 .navbar-brand {
-    margin: 4px;
-    padding: 2px;
-    
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fafafa;
+}
+
+.navbar-collapse {
+    margin: 0;
     background-color: #C43232;
+}
+
+.navbar-collapse ul li a {
+    color: #fafafa;
 }
 
 /*-------------Images------*/
 
-.group-image-container {
-    margin: 0;
-    
-    
-}
-
-.group-image-column {
-    padding: 0;
-    width: 100%;
+.group-image {
+    height: 100vh;
+    background: url(../images/monkees.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
+    position: relative;
 }
 
 .opaque-overlay {
@@ -121,7 +121,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*---------------Heading--------------*/
+/*---------------Quotes--------------*/
 
 
 /*-------------Containers-------------*/
@@ -156,7 +156,7 @@
     font-family: Bangers, cursive;
     font-weight: 200;
     font-size: 20px;
-    color: #C43232
+    color: #C43232;
 }
 
 
@@ -166,7 +166,7 @@
 /*------------Band Carousel-----------*/
 
 
-/*---------------Footer Higher---------------*/
+/*---------------Social Media---------------*/
 /* To include styling for social media fonts > font awesome */ 
 
 .bg-color-social-container {
@@ -174,6 +174,27 @@
     min-height: 20px;
     margin: 0;
     padding-top: 10px 
+}
+
+.social-links-footer li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%; /*Enables creation of circle where width & height of same value*/
+    font-size: 13px; /*Enables icon to sit within border*/  
+    line-height: 7px;
+    text-align: center;
+    color: #000000; /*Black*/
+    background: #f7eed4; /*Yellow*/
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out; /*Opera*/
+    -moz-transition: all 0.5s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+}
+
+.social-links-footer li a i:hover {
+    background: #C43232; /*Red*/
+    color: #fafafa;
 }
 
 
@@ -196,9 +217,11 @@
 }
 
 .btn-link {
-    font-weight: bold;
-    border-radius: 17px;
-    width: 120px; 
+    font-weight: bold; 
+    font-size: 0.7em; 
+    border-radius: 50%;
+    width: 40px;
+    text-align: center; 
     color: #f7eed4;
     background-color: rgba(196,50,50,0.8);
     border-color: rgba(196,50,50,0.8);
@@ -211,6 +234,24 @@
     text-decoration: none;
 }
 
-/*---------------Hover.CSS------------*/
+/*--------------Media Queries---------*/
+
+@media (max-width: 369px) {
+    .section-column {
+        
+    }
+}
+
+@media (max-width: 767px) {
+    
+} 
+    
+
+@media (min-width: 992px) {
+    
+}
+    
+
+
 
 
