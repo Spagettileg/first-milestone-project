@@ -145,7 +145,7 @@
     text-align: justify;
 } 
 
-.fifty-years-container a {
+.fifty-years-container a { /*Good Times link*/
     text-decoration: none;
     color: #C43232;
 }
@@ -176,6 +176,27 @@
     font-family: boogaloo, cursive;
 }
 
+.buy-tickets-details a {
+    background-color: #C43232;
+    border-color: #C43232;
+    color: #f7eed4;
+    font-weight: bold; 
+    font-size: 0.7em; 
+    border-radius: 50%;
+    width: 40px;
+    text-align: center; 
+}
+
+.buy-tickets-details a:hover {
+    background-color: #6CB8AC; /*Change to green once hovered*/
+    border-color: #6CB8AC;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out; /*Opera*/
+    -moz-transition: all 0.5s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+}
 
 /*------------Music Timeline----------*/
 
@@ -235,28 +256,6 @@
 
 .btn-cta {
     
-}
-
-.btn-link {
-    font-weight: bold; 
-    font-size: 0.7em; 
-    border-radius: 50%;
-    width: 40px;
-    text-align: center; 
-    color: #f7eed4;
-    background-color: rgba(196,50,50,0.8);
-    border-color: rgba(196,50,50,0.8);
-}
-
-.btn-link:hover {
-    background-color: #6CB8AC; /*Change to green once hovered*/
-    border-color: #6CB8AC;
-    color: #000000;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; /*Opera*/
-    -moz-transition: all 0.5s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
 }
 
 /*--------------Media Queries---------*/
