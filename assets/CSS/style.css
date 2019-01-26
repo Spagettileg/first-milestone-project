@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700|Boogaloo:100,200,300,400,500,600,700');
 
 /*----------Special Padding / Margin / Text----------*/
 
@@ -102,7 +102,8 @@
 /*-------------Images------*/
 
 .group-image {
-    height: 100vh;
+    position: relative;
+    height: 65vh;
     background: url(../images/monkees.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -112,7 +113,6 @@
     align-items: center;
     justify-content: center; /*required to manage the horixontal centering of the 
     group image design*/
-    position: relative;
 }
 
 .opaque-overlay {
@@ -139,9 +139,20 @@
     color: #f7eed4;
 }
 
-.50-years-container {
-    
+.fifty-years-container {
+    font-family: Boogaloo, cursive;
+    font-weight: 100;
+    text-align: justify;
 } 
+
+.fifty-years-container a {
+    text-decoration: none;
+    color: #C43232;
+}
+
+.fifty-years-container a:hover {
+    color: #6CB8AC;
+}
 
 .upcoming-tour-dates-container {
     margin: 0;
@@ -152,7 +163,6 @@
     color: #f7eed4;
 }
 
-
 /*-----------Buy Tickets--------------*/
 
 .buy-tickets {
@@ -160,6 +170,10 @@
     font-weight: 200;
     font-size: 20px;
     color: #C43232;
+}
+
+.buy-tickets-details {
+    font-family: boogaloo, cursive;
 }
 
 
@@ -213,6 +227,10 @@
     padding-top: 5px 
 }
 
+/*-------------Block Dividers---------*/
+
+
+
 /*---------------Buttons--------------*/
 
 .btn-cta {
@@ -233,8 +251,12 @@
 .btn-link:hover {
     background-color: #6CB8AC; /*Change to green once hovered*/
     border-color: #6CB8AC;
-    color: #fafafa;
+    color: #000000;
     text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out; /*Opera*/
+    -moz-transition: all 0.5s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
 }
 
 /*--------------Media Queries---------*/

@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
         <link rel="stylesheet" href="assets/CSS/style.css" type="text/css" />
+        <link rel="shortcut icon" type="image/png" href="assets/myimages/themonkeeslogo.jpg">
         
         <title>1st Milestone Project. The Monkees</title>
         
@@ -20,7 +21,7 @@
            <div class="row">
                 <div class="col-xs-12">
                     <div class="site-wide-alert alert alert-warning">
-                        <strong>Concert Booking & Tickets Sale!</strong><a href=""> Click here to view availability</a>
+                        <strong>Concert Booking & Tickets Sale!</strong><a href="eventsandtickets.html"> Click here to view availability</a>
                     </div>
                 </div>
             </div>
@@ -32,7 +33,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/images/themonkeeslogo.jpg" alt="The Monkees">
+                        <img src="assets/myimages/themonkeeslogo.jpg" alt="The Monkees">
                     </a>
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
                             <span class="sr-only">Toggle Navigation</span>
@@ -46,10 +47,10 @@
         <!--Navbar Collapse-->
             <div class="navbar-collapse collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/">Music</a></li> 
-                    <li><a href="/">Hey Hey!</a></li>
-                    <li><a href="/">Events & Tickets</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="music.html">Music</a></li> 
+                    <li><a href="heyhey.html">Hey Hey!</a></li>
+                    <li><a href="eventsandtickets.html">Events & Tickets</a></li>
                 </ul>
             </div>
         </nav>
@@ -71,13 +72,18 @@
                 </div>
             </div>
             
-            <div class="container-fluid 50-years-container bg-color-yellow">
+            <div class="container-fluid fifty-years-container bg-color-yellow">
                 <div class="row">
-                    <div class="col-xs-12 50-years-news">
+                    <div class="col-xs-12 fifty-years-news">
+                        <div class="row">
+                            <div class="col-xs-12 col-md-6">
+                                <div class="News .glyphicon news">
+                                    <h3><span class="glyphicon glyphicon-headphones hidden-xs"></span> Listen Up! <span class="label label-warning">New!</span></h3>
                         <p> 
-                            To celebrate the band's 50th anniversary, they released a record called Good Times.
+                            To celebrate the band's 50th anniversary, they released a record called <a href="music.html">Good Times</a>.
                             It's their first new album in 20 years and the first since the passing of former band heartthrob Davy Jones in 2012.
                         </p>
+                                </div>
                         <p>
                             2019 US Tour dates released (1st March - 15 March)
                         </p>
@@ -87,11 +93,10 @@
                         <p>
                             2019 Australia Tour date released (15th June)
                         </p>
-                        
+                            </div>
+                        </div>
                     </div>
-                    
                 </div>
-                
             </div>
             <!--End Hot News-->
             
@@ -122,7 +127,7 @@
                         </tr>
                     </thead>
                     
-                    <tbody>
+                    <tbody class="buy-tickets-details">
                         <tr>
                             <td>Mar 1st</td>
                             <td>Medford, MA (US)</td>
