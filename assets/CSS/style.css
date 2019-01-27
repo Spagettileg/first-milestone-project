@@ -7,6 +7,10 @@
     margin-right: 0; /*as above*/
 }
 
+.row-table {
+    display: table; /*Columns will remain of equal height, regardless of content*/
+}
+
 /*---------------Colours--------------*/
 
 .bg-color-red {
@@ -196,7 +200,9 @@
     padding: 0;
     font-family: boogaloo, cursive;
     font-size: 12px;
+    font-weight: 200;
     text-align: center;
+    color: #C43232
 }
 
 .video-bg {
@@ -218,10 +224,58 @@
     group image design*/
 }
 
+/*------------Chronology----------*/
 
+.chrono-heading {
+    font-family: Boogaloo, cursive;
+    font-size: large;
+    color: #C43232;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
+.chrono-items {
+    margin-bottom: 30px;
+}
 
-/*------------Music Timeline----------*/
+.chrono-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #C43232;
+    border-left: 1px solid;
+}
+
+.chrono-item p {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.chrono-item::before {
+    content: attr(dates);
+    position: absolute; /*fix the date just above the employers location*/
+    left: 2.5em; /*further refines positioning of the dates*/
+    top: 3em;
+    display: block;
+    font-family: Boogaloo, cursive;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.chrono-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px; /*Negative value allows disc to sit out on left hand border*/
+    border-radius: 12px; /*creates a disc shape, feeding from width & height 12px*/
+    content: ""; /*No content other then the border itself*/
+    background: #C43232; /*Red*/
+}
+
 
 /*------------Band Carousel-----------*/
 
@@ -281,21 +335,22 @@
 
 /*--------------Media Queries---------*/
 
-@media (max-width: 369px) {
-    .section-column {
-        
-    }
-}
-
-@media (max-width: 767px) {
-    
-} 
-    
-
 @media (min-width: 992px) {
-    
+    .section-column {
+        padding:0 30px 30px; /*This styling designed to be used repeatedly > 'Chronology, Albums, etc'*/ 
+        float: none;
+        display: table-cell;
 }
-    
+
+.center-form {
+    padding-top: 30px; /*Center-Form code adjusted for Mobile view*/
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%; /*width reduced from 70% to 50%
+    as name field not required at 100%*/
+}
+}
+
 
 
 
