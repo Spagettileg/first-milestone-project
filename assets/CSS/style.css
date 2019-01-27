@@ -130,7 +130,7 @@
 /*-------------Containers-------------*/
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
-.hot-news-headline-container {
+.headline-container {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -152,15 +152,6 @@
 
 .fifty-years-container a:hover {
     color: #6CB8AC;
-}
-
-.upcoming-tour-dates-container {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: Bangers, cursive;
-    font-size: 25px;
-    color: #f7eed4;
 }
 
 /*-----------Buy Tickets--------------*/
@@ -198,11 +189,11 @@
     -webkit-transition: all 0.5s ease-in-out; /*Apple*/
 }
 
+/*----------------Video---------------*/
+
 /*------------Music Timeline----------*/
 
-
 /*------------Band Carousel-----------*/
-
 
 /*---------------Social Media---------------*/
 /* To include styling for social media fonts > font awesome */ 
