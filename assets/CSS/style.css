@@ -191,6 +191,36 @@
 
 /*----------------Video---------------*/
 
+.video-heading {
+    margin: 5px;
+    padding: 0;
+    font-family: boogaloo, cursive;
+    font-size: 12px;
+    text-align: center;
+}
+
+.video-bg {
+    flex: 1 0 auto;
+    background-color: #f7eed4;
+}
+
+.video-image {
+    position: relative;
+    height: 85vh;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+
+
+
 /*------------Music Timeline----------*/
 
 /*------------Band Carousel-----------*/
