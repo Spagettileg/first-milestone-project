@@ -128,6 +128,11 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.album-cover-image {
+    width: 50%;
+    max-width: 150px;
+}
+
 /*---------------Quotes--------------*/
 
 
@@ -325,7 +330,28 @@
 
 /*-------------Block Dividers---------*/
 
+.block-divider {
 
+    width: 200px;
+
+    height: 2px;
+
+    border: 0;
+
+}
+
+.block-divider-red {
+
+    background-color: #C43232;
+
+}
+
+
+.block-divider-yellow {
+
+    background-color: #f7eed4;
+
+}
 
 /*---------------Buttons--------------*/
 
