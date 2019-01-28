@@ -129,9 +129,11 @@
 }
 
 .album-cover-image {
-    width: 50%;
-    max-width: 150px;
+    width: 100%;
+    max-width: 108px;
 }
+
+
 
 /*---------------Quotes--------------*/
 
@@ -161,6 +163,21 @@
 
 .fifty-years-container a:hover {
     color: #6CB8AC;
+}
+
+.main-video-container {
+     padding: 0;
+     margin: 0;
+}
+
+.timeline-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.album-container {
+    padding: 10px;
+    margin: 10px;
 }
 
 /*-----------Buy Tickets--------------*/
@@ -241,6 +258,8 @@
 
 .chrono-items {
     margin-bottom: 30px;
+    padding: 10px;
+    
 }
 
 .chrono-item {
@@ -361,7 +380,7 @@
 
 /*--------------Media Queries---------*/
 
-@media (min-width: 992px) {
+@media (min-width: 767px) {
     .section-column {
         padding:0 30px 30px; /*This styling designed to be used repeatedly > 'Chronology, Albums, etc'*/ 
         float: none;
