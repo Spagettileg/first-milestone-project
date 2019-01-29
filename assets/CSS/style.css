@@ -133,7 +133,11 @@
     max-width: 108px;
 }
 
-
+.album-cover-image-music {
+    width: 100%;
+    max-width: 190px;
+    margin-top: 20px;
+}
 
 /*---------------Quotes--------------*/
 
@@ -172,13 +176,19 @@
 
 .timeline-container {
     padding: 10px;
-    margin: 10px;
+    margin: 0px;
 }
 
 .album-container {
     padding: 10px;
-    margin: 10px;
+    margin: 0px;
 }
+
+.music-container {
+    margin: 40px 0;
+}
+
+
 
 /*-----------Buy Tickets--------------*/
 
@@ -246,36 +256,51 @@
     group image design*/
 }
 
-/*------------Chronology----------*/
+/*-------------Music--------------*/
 
-.chrono-heading {
+.music-background h5 {
+    margin-top: 5px;
     font-family: Boogaloo, cursive;
-    font-size: large;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.sound-control {
+    width: 80%;
+    max-width: 330px;
+    margin-top: 20px;
+}
+
+/*------------Discography----------*/
+
+.disco-heading {
+    font-family: Bangers, cursive;
+    font-size: x-large; 
     color: #C43232;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
-.chrono-items {
+.disco-items {
     margin-bottom: 30px;
     padding: 10px;
     
 }
 
-.chrono-item {
+.disco-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #C43232;
     border-left: 1px solid;
 }
 
-.chrono-item p {
+.disco-item p {
     padding: 0;
     margin: 0;
     
 }
 
-.chrono-item::before {
+.disco-item::before {
     content: attr(dates);
     position: absolute; /*fix the date just above the employers location*/
     left: 2.5em; /*further refines positioning of the dates*/
@@ -288,7 +313,7 @@
     margin: 0;
 }
 
-.chrono-item::after {
+.disco-item::after {
     width: 12px;
     height: 12px;
     display: block;
@@ -380,20 +405,10 @@
 
 /*--------------Media Queries---------*/
 
-@media (min-width: 767px) {
-    .section-column {
-        padding:0 30px 30px; /*This styling designed to be used repeatedly > 'Chronology, Albums, etc'*/ 
-        float: none;
-        display: table-cell;
-}
-
-.center-form {
-    padding-top: 30px; /*Center-Form code adjusted for Mobile view*/
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%; /*width reduced from 70% to 50%
-    as name field not required at 100%*/
-}
+@media only screen and (max-width: 768px) { /* For mobile phones: */
+  .col- {
+    width: 100%;
+  }
 }
 
 
