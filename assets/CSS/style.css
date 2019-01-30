@@ -105,10 +105,24 @@
 
 /*-------------Images------*/
 
-.group-image {
+.hot-news-image {
     position: relative;
     height: 65vh;
     background: url(../images/monkees.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
+.heyhey-image {
+    position: relative;
+    height: 80vh;
+    background: url(../myimages/heyhey.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -187,8 +201,6 @@
 .music-container {
     margin: 40px 0;
 }
-
-
 
 /*-----------Buy Tickets--------------*/
 
@@ -294,10 +306,16 @@
     border-left: 1px solid;
 }
 
+.disco-item h4 {
+    padding: 0;
+    margin: 0;
+    font-family: boogaloo, cursive;
+}
+
 .disco-item p {
     padding: 0;
     margin: 0;
-    
+    font-family: boogaloo, cursive;
 }
 
 .disco-item::before {
@@ -374,28 +392,26 @@
 
 /*-------------Block Dividers---------*/
 
-.block-divider {
-
-    width: 200px;
-
-    height: 2px;
-
+.block-divider--footer {
+    height: 1px;
     border: 0;
-
+    width: 100%;
+    padding: 0;
+    margin: 1px auto;
+    margin-bottom: 10px;
+    background-color: #f7eed4; /*Yellow*/
 }
 
-.block-divider-red {
-
-    background-color: #C43232;
-
+.block-divider--back-story {
+    height: 1px;
+    border: 0;
+    width: 80%;
+    padding: 0;
+    margin: 1px auto;
+    margin-bottom: 10px;
+    background-color: #6CB8AC; /*Green*/
 }
 
-
-.block-divider-yellow {
-
-    background-color: #f7eed4;
-
-}
 
 /*---------------Buttons--------------*/
 
