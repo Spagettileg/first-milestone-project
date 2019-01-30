@@ -357,6 +357,88 @@
 
 /*------------Band Carousel-----------*/
 
+.testimonialbody {
+    flex: 1 0 auto;
+    background-color: #efefef;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.item {
+    font-family: 'Mukta', sans-serif;
+    padding:25px;
+}
+
+.slidepic {
+    margin-bottom: 10px;
+}
+
+.carousel-control {
+    width: 6%
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+/*
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 10px; 
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 10px; 
+}
+*/
+
+.carousel-indicators {
+    bottom: -10px;
+}.testimonialbody {
+    flex: 1 0 auto;
+    background-color: #efefef;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+.item {
+    font-family: 'Mukta', sans-serif;
+    padding:25px;
+}
+
+.slidepic {
+    margin-bottom: 10px;
+}
+
+.carousel-control {
+    width: 6%
+}
+
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+}
+
+/*
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 10px; 
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 10px; 
+}
+*/
+
+.carousel-indicators {
+    bottom: -10px;
+}
+
 /*---------------Social Media---------------*/
 /* To include styling for social media fonts > font awesome */ 
 
@@ -416,7 +498,7 @@
 .block-divider--back-story {
     height: 1px;
     border: 0;
-    width: 80%;
+    width: 50%;
     padding: 0;
     margin: 1px auto;
     margin-bottom: 10px;
