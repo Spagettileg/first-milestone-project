@@ -184,8 +184,8 @@
 }
 
 .main-video-container {
-     padding: 0;
-     margin: 0;
+     margin-left: 0;
+     margin-right: 0;
 }
 
 .timeline-container {
@@ -200,6 +200,11 @@
 
 .music-container {
     margin: 40px 0;
+}
+
+.back-story-container {
+    padding: 10px;
+    margin: 10px;
 }
 
 /*-----------Buy Tickets--------------*/
@@ -306,7 +311,7 @@
     border-left: 1px solid;
 }
 
-.disco-item h4 {
+.disco-item h3 {
     padding: 0;
     margin: 0;
     font-family: boogaloo, cursive;
@@ -343,6 +348,12 @@
     background: #C43232; /*Red*/
 }
 
+/*------------Background Story----------*/
+
+.back-story-writeup {
+    font-family: boogaloo, cursive;
+    text-align: justify;
+}
 
 /*------------Band Carousel-----------*/
 
