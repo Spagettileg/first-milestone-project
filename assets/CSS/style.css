@@ -357,7 +357,7 @@
 
 /*------------Band Carousel-----------*/
 
-.testimonialbody {
+.heyhey-main {
     flex: 1 0 auto;
     background-color: #efefef;
     padding-top: 75px;
@@ -365,7 +365,7 @@
 }
 
 .item {
-    font-family: 'Mukta', sans-serif;
+    font-family: boogaloo, cursive;
     padding:25px;
 }
 
@@ -385,7 +385,6 @@
     background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
 }
 
-/*
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
   right: 10px; 
 }
@@ -393,11 +392,10 @@
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
   left: 10px; 
 }
-*/
 
 .carousel-indicators {
     bottom: -10px;
-}.testimonialbody {
+}.heyhey-main {
     flex: 1 0 auto;
     background-color: #efefef;
     padding-top: 75px;
@@ -405,7 +403,7 @@
 }
 
 .item {
-    font-family: 'Mukta', sans-serif;
+    font-family: boogaloo, cursive;
     padding:25px;
 }
 
@@ -417,13 +415,7 @@
     width: 6%
 }
 
-.carousel-control.right {
-    background-image: linear-gradient(to right,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
-}
 
-.carousel-control.left {
-    background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
-}
 
 /*
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
@@ -436,7 +428,7 @@
 */
 
 .carousel-indicators {
-    bottom: -10px;
+    bottom: -5px;
 }
 
 /*---------------Social Media---------------*/
