@@ -205,6 +205,10 @@
 .back-story-container {
     padding: 10px;
     margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
 }
 
 /*-----------Buy Tickets--------------*/
@@ -357,79 +361,101 @@
 
 /*------------Band Carousel-----------*/
 
-.heyhey-main {
-    flex: 1 0 auto;
-    background-color: #efefef;
-    padding-top: 75px;
-    padding-bottom: 50px;
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  background-color: #f7eed4;
 }
 
-.item {
-    font-family: boogaloo, cursive;
-    padding:25px;
+/* Hide the images by default */
+.mySlides {
+  display: none;
 }
 
-.slidepic {
-    margin-bottom: 10px;
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
 }
 
-.carousel-control {
-    width: 6%
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-.carousel-control.right {
-    background-image: linear-gradient(to right,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
-.carousel-control.left {
-    background-image: linear-gradient(to left,rgba(14,47,99,.0001) 0,rgba(14,47,99,.5) 100%);
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  right: 10px; 
+/* Number text (1/9 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-  left: 10px; 
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.carousel-indicators {
-    bottom: -10px;
-}.heyhey-main {
-    flex: 1 0 auto;
-    background-color: #efefef;
-    padding-top: 75px;
-    padding-bottom: 50px;
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-.item {
-    font-family: boogaloo, cursive;
-    padding:25px;
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
 }
 
-.slidepic {
-    margin-bottom: 10px;
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
-.carousel-control {
-    width: 6%
-}
-
-
-
-/*
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
-  right: 10px; 
-}
-
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
-  left: 10px; 
-}
-*/
-
-.carousel-indicators {
-    bottom: -5px;
-}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
 
 /*---------------Social Media---------------*/
 /* To include styling for social media fonts > font awesome */ 
@@ -512,6 +538,12 @@
   }
 }
 
+@media only screen and (min-width: 992px) { /* For larger desktop: */
+  .carousel-inner {
+    width: 100%;
+    text-align: right;
+  }
+}
 
 
 
