@@ -133,6 +133,20 @@
     group image design*/
 }
 
+.eventsandtickets-image {
+    position: relative;
+    height: 80vh;
+    background: url(../myimages/eventsandtickets.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -153,9 +167,6 @@
     margin-top: 20px;
 }
 
-/*---------------Quotes--------------*/
-
-
 /*-------------Containers-------------*/
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
@@ -164,7 +175,7 @@
     padding: 0;
     text-align: center;
     font-family: Bangers, cursive;
-    font-size: 25px;
+    font-size: x-large;
     color: #f7eed4;
 }
 
@@ -186,6 +197,7 @@
 .main-video-container {
      margin-left: 0;
      margin-right: 0;
+     padding-top: 10px;
 }
 
 .timeline-container {
@@ -202,7 +214,7 @@
     margin: 40px 0;
 }
 
-.back-story-container {
+.back-story-container, .booking-container {
     padding: 10px;
     margin: 10px;
     display: block;
@@ -211,31 +223,31 @@
     width: 90%;
 }
 
-/*-----------Buy Tickets--------------*/
+/*-----------Check Tickets Book Tickets Book The Monkees--------------*/
 
-.buy-tickets {
+.check-tickets {
     font-family: Bangers, cursive;
     font-weight: 200;
     font-size: 20px;
     color: #C43232;
 }
 
-.buy-tickets-details {
+.check-tickets-details {
     font-family: boogaloo, cursive;
 }
 
-.buy-tickets-details a {
+.check-tickets-details a {
     background-color: #C43232;
     border-color: #C43232;
     color: #f7eed4;
     font-weight: bold; 
     font-size: 0.7em; 
     border-radius: 50%;
-    width: 40px;
+    width: 50px;
     text-align: center; 
 }
 
-.buy-tickets-details a:hover {
+.check-tickets-details a:hover {
     background-color: #6CB8AC; /*Change to green once hovered*/
     border-color: #6CB8AC;
     color: #000000;
@@ -244,6 +256,12 @@
     -o-transition: all 0.5s ease-in-out; /*Opera*/
     -moz-transition: all 0.5s ease-in-out; /*Windows*/
     -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+}
+
+.booking-writeup {
+    font-family: boogaloo, cursive;
+    text-align: justify;
+    font-size: larger;
 }
 
 /*----------------Video---------------*/
@@ -352,11 +370,12 @@
     background: #C43232; /*Red*/
 }
 
-/*------------Background Story----------*/
+/*------------Background Story (HeyHey!)----------*/
 
 .back-story-writeup {
     font-family: boogaloo, cursive;
     text-align: justify;
+    font-size: larger;
 }
 
 /*------------Band Carousel-----------*/
@@ -408,6 +427,7 @@
 /* Container for image text */
 .caption-container {
   font-family: boogaloo, cursive;
+  font-size: x-large; 
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
@@ -533,7 +553,33 @@
 /*---------------Buttons--------------*/
 
 .btn-cta {
-    
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn-red {
+    color: #fafafa;
+    background-color: #C43232;
+    border-color: #C43232;
+}
+
+.btn-green {
+    color: #fafafa;
+    background-color: #6CB8AC;
+    border-color: #6CB8AC;
+}
+
+.btn-red:hover,
+
+.btn-red:active,
+
+.btn-red:focus,
+
+.btn-red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
 }
 
 /*--------------Media Queries---------*/
