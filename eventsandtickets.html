@@ -62,14 +62,14 @@
                     <strong>Book Tickets</strong>
                 </div>
             </div>
-            <div class="container-fluid buy-tickets-container content-container bg-color-yellow">
+            <div class="container-fluid book-tickets-container content-container bg-color-yellow">
                     <div class="row">
                         <div class="col-xs-12 text-center">
                         </div>
                     </div>
             <table class="table">
                     <thead>
-                        <tr class="buy-tickets">
+                        <tr class="book-tickets">
                             <th>Date</th>
                             <th>Location</th>
                             <th>Venue</th>
@@ -184,11 +184,14 @@
                     <div class="col-xs-12 booking-writeup">
                        <p>Hey Hey for your special moment, check to see if The Monkees are available to perform
                        for you, your family & friends. Simply add your details
-                       and we'll take you one step closer to the magic! </p> 
+                       and we'll take you one step closer to the magic! </p>
+                       <button class="btn btn-sm btn-cta btn-green" data-toggle='modal' data-target='#BookMonkeesModal'>Booking Enquiry</button>
                     </div>
                 </div>
             </div>
             <!--/Booking The Monkees-->
+            
+            
         </section>
         
         <footer>
@@ -218,34 +221,94 @@
             <!-- /Footer Lower Container -->
         </footer>
         
+        <!--Book Ticket Modal-->
         <div class="modal fade" id="TicketModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Sign up for Whiskey Drop!</h4>
+                <h4 class="modal-title" id="myModalLabel">Ticket Order</h4>
               </div>
           <div class="modal-body">
             <form>
-          <div class="form-group">
-            <label for="Email">Email address</label>
-            <input type="email" class="form-control" id="Email" placeholder="Email">
-            <p class="help-block">We'll never share your email address with anyone</p>  
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
           </div>
-          <div class="form-group">
-            <label for="Password">Password</label>
-            <input type="password" class="form-control" id="Password" placeholder="Password">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
           </div>
-          <div class="form-group">
-            <label for="PasswordRepeat">Repeat Password</label>
-            <input type="password" class="form-control" id="PasswordRepeat" placeholder="Repeat Your Password">
+          <div class="checkbox">
+            <label><input type="checkbox"> Tick box to agree for email to be shared with registered third parties</label>
           </div>
-          <button type="submit" class="btn btn-success">Sign Up!</button>
+          <div class="input-group">
+            <span class="input-group-addon">Tickets</span>
+            <input id="msg" type="text" class="form-control" name="msg" placeholder="No more than 8 tickets permitted">
+          </div>
+          <br>
+          <button type="submit" class="btn btn-success">Confirm!</button>
             </form>
               </div>
             </div>
           </div>
         </div>
+        <!--/Book Ticket Modal-->
+        
+        <!--Book The Monkees Modal-->
+        <div class="modal fade" id="BookMonkeesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Booking Order Form</h4>
+              </div>
+          <div class="modal-body">
+            <form>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="full name" type="text" class="form-control" name="full name" placeholder="Full Name">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+            <input id="date" type="date" class="form-control" name="date" placeholder="Preferred Date">
+          </div>
+          <div class="input-group">
+            <div class="radio">
+              <label><input type="radio" name="optradio" checked>Wedding</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Anniversary</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Birthday</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Graduation</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Other</label>
+            </div>
+          </div>
+          <div class="checkbox">
+            <label><input type="checkbox"> Tick box to agree for email to be shared with registered third parties</label>
+          </div>
+          <div class="form-group">
+            <label for="special">Special Instructions:</label>
+              <textarea class="form-control" rows="5" id="special"></textarea>
+          </div> 
+          <br>
+          <button type="submit" class="btn btn-success">Confirm!</button>
+            </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Book The Monkees Modal-->
         
         <!-- Add Javascript Bootstrap code from both Bootstrap 'getting started' and 'JQuery CDN' = JQuery Core 3.3.1, minified --> 
     

@@ -225,18 +225,18 @@
 
 /*-----------Check Tickets Book Tickets Book The Monkees--------------*/
 
-.check-tickets {
+.check-tickets, .book-tickets {
     font-family: Bangers, cursive;
     font-weight: 200;
     font-size: 20px;
     color: #C43232;
 }
 
-.check-tickets-details {
+.check-tickets-details, .book-tickets-details {
     font-family: boogaloo, cursive;
 }
 
-.check-tickets-details a {
+.check-tickets-details a, .book-ticket-details a {
     background-color: #C43232;
     border-color: #C43232;
     color: #f7eed4;
@@ -247,7 +247,7 @@
     text-align: center; 
 }
 
-.check-tickets-details a:hover {
+.check-tickets-details a:hover, .book-tickets-details a:hover {
     background-color: #6CB8AC; /*Change to green once hovered*/
     border-color: #6CB8AC;
     color: #000000;
@@ -555,7 +555,7 @@
 .btn-cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 120px;
 }
 
 .btn-red {
@@ -580,6 +580,12 @@
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+.booking-writeup button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--------------Media Queries---------*/
