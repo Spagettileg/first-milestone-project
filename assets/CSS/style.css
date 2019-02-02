@@ -25,8 +25,16 @@
     background-color: #f7eed4;
 }
 
+.bg-color-lilac {
+    background-color: #ffe6ff;
+}
+
+.bg-color-purple {
+    background-color: #660066;
+}
+
 .bg-color-lower-footer {
-    background-color: #525252;
+    background-color: #525252; /*dark  grey*/
 }
 
 
@@ -147,6 +155,20 @@
     group image design*/
 }
 
+.celebration-image {
+    position: relative;
+    height: 60vh;
+    background: url(../myimages/celebration.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -215,12 +237,13 @@
 }
 
 .back-story-container, .booking-container {
-    padding: 10px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
 }
 
 /*-----------Check Tickets Book Tickets Book The Monkees--------------*/
@@ -260,7 +283,7 @@
 
 .booking-writeup {
     font-family: boogaloo, cursive;
-    text-align: justify;
+    text-align: center;
     font-size: larger;
 }
 
@@ -586,6 +609,18 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #990099; /*lilac*/
+    border-color: #990099;
+    color:#ffccff;
+}
+
+.booking-writeup button:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #660066; /*purple*/
+    border-color: #660066;
+    color:#fafafa;
 }
 
 /*--------------Media Queries---------*/
