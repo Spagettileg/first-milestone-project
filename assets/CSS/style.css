@@ -216,6 +216,12 @@
     color: #6CB8AC;
 }
 
+.fifty-years-news {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
 .main-video-container {
      margin-left: 0;
      margin-right: 0;
@@ -259,14 +265,18 @@
     font-family: boogaloo, cursive;
 }
 
+.check-tickets-details button, .book-tickets-details button {
+    font-size: 14px; 
+}
+
 .check-tickets-details a, .book-ticket-details a {
     background-color: #C43232;
     border-color: #C43232;
     color: #f7eed4;
     font-weight: bold; 
-    font-size: 0.7em; 
+    font-size: 14px; 
     border-radius: 50%;
-    width: 50px;
+    width: 65px;
     text-align: center; 
 }
 
