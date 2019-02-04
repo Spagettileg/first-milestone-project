@@ -68,6 +68,18 @@ The mock up design has evolved through the duration of my site build. The design
 
 #### index.html
 ##### Feature 1
+Alert message created to notify user of link to quickly access ticket sales and concert bookings. The alert only appears on the home page.
+
+Navbar (repeated on all pages) has been designed to include a clickable icon image that is very synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘music’, ‘heyhey!’ and ‘events & tickets’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
+
+A full black and white image of the band is on show from the header through to the first container ‘hot news!’. I was inspired by the design as a result of completing the bootstrap training and ‘Whisky Drop’ coding exercise. The thought of scrolling the image creates a sense of something next. 
+
+‘Hot News!’ is central to the home page. Users are notified up front of important information concerning the band. In addition, there is a ‘Good Times’ text link that navigates the user to the ‘music’ page where a video has been added to talk further on ‘Good Times’ and further link to 50 year band celebrations.  Summary news of 2019 world tour is supported by use of glythicons, sourced from bootstrap / font awesome.
+
+Further news of a 2019 world tour appears on home page via a ‘bootstrap’ table design. The design has been further modified to include a clickable button to allow user to check availability of tickets via a navigation link through to ‘events & tickets’ page. All buttons are subject to .hover pseudo class that provides a status colour change to the user when their cursor is placed upon the selected button.
+
+Footer (repeated on all pages) includes social media links and fonts (glythicons) secured from bootstrap / font awesome. The links are wired to the bands’ respective social media sites. Again, the .hover pseudo class has been used to provide a background colour change (yellow to red) and font colour change too.  The lower footing allows for both copyright and web designer information.    
+
 
 #### music.html
 ##### Feature 1
@@ -89,8 +101,6 @@ Cascading Style Sheets provided support with formatting, positioning, coloring a
 Bootstrap 3.3.7 is used to create frameworks of a mobile-first design, it was used for navigation and page grid layout in the website.
 ##### JQuery - https://jquery.com/
 JQuery is added to the site to assist the implementation of JavaScript and Bootstrap.
-##### Font Awesome - https://www.bootstrapcdn.com/fontawesome/
-Font Awesome is used to add social links to the website. These icons are Facebook, Instagram, Twitter, YouTube and Spotify.
 ##### Google Fonts - https://fonts.google.com/
 Google fonts are used to create an impact to the web-design and uphold a styling theme.
 •	'Bangers, cursive': Used for headings.
