@@ -67,12 +67,12 @@ The mock up design has evolved through the duration of my site build. The design
 ### Features
 
 #### index.html
-##### Feature 1
+
 Alert message created to notify user of link to quickly access ticket sales and concert bookings. The alert only appears on the home page.
 
 Navbar (repeated on all pages) has been designed to include a clickable icon image that is very synonymous with the bands brand. The user will always return to the home page with. In addition, the navbar allows the user to navigate to ‘music’, ‘heyhey!’ and ‘events & tickets’ pages. A ‘hamburger’ design has been built to collapse the navbar for Mobile devices.
 
-A full black and white image of the band is on show from the header through to the first container ‘hot news!’. I was inspired by the design as a result of completing the bootstrap training and ‘Whisky Drop’ coding exercise. The thought of scrolling the image creates a sense of something next. 
+A full black and white image of the band is on show from the header through to the first container ‘hot news!’. An opaque-overlay helps soften the band image.  I was inspired by the design as a result of completing the bootstrap training and ‘Whisky Drop’ coding exercise. The thought of scrolling the image creates a sense of something next.     
 
 ‘Hot News!’ is central to the home page. Users are notified up front of important information concerning the band. In addition, there is a ‘Good Times’ text link that navigates the user to the ‘music’ page where a video has been added to talk further on ‘Good Times’ and further link to 50 year band celebrations.  Summary news of 2019 world tour is supported by use of glythicons, sourced from bootstrap / font awesome.
 
@@ -82,13 +82,27 @@ Footer (repeated on all pages) includes social media links and fonts (glythicons
 
 
 #### music.html
-##### Feature 1
+
+A video download ‘Good Times’ via you tube has been added at the start of this page. HTML iframe syntax was used in conjunction with height & width settings. This approach was a preferred choice compared to an mp4 file that I struggled to work with, mainly due to the 16Mb file size.  The next section of the page is dedicated to the bands’ sample music where the user can access upto 4 music tracks with supporting audio control bars. The sample tracks are aligned to the originating album covers.
+
+A discography completes the last section of the page. Both a timeline and corresponding band album covers gives the user a sense of scope and understanding of the music produced by the band. 
+
 
 #### hey hey!.html
-##### Feature 1
+This page is designed to introduce the user to the band members, understand their background and to share some humour with a random selection of quotes.
+
+A full colour image of the band is on show from the header through to the first container ‘background story’. I believe the image shown captures great energy from the band and I wanted this energy to transfer to the user as a means becoming more interested in the page content. The background story provides an insight to how the band came together and notable milestones throughout years of performing.
+
+A carousel is positioned in the last section of this page, offering the user the opportunity to view more images of the band, introduction to band members and share band member quotes too.  The nine image slides are timed to fade (5 seconds) and auto change to the next scheduled slide.    
+
 
 #### Events & Tickets.html
-##### Feature 1
+This page is designed to help the user view ticket availability, book tickets and book the band.
+
+Another full colour image of the band is displayed showing a spirit of celebration and precedes the ‘Book Tickets’ section. To book tickets, the user will have been steered from the home page or directly clicked into this web-page. A modal has been added to each concert booking button to help the user by requesting their email and number of tickets required. Password security and a tick box requesting user permission to share their email address provides an essential user assurance.
+
+The user can scroll to end of page to take up an opportunity to book the band for a private event i.e. wedding, anniversary, birthday, etc. A button has been created in conjunction with a modal to help the user complete a booking enquiry form. The form request name, email, preferred booking date, type of event and any special instructions. A tick box has been added to request user permission to share their email address. Again, providing an essential user assurance. No password required here, as we’re dealing with a user booking enquiry and not a formal booking. The latter would represent an additional build in web-design.
+
 
 ***
 
@@ -156,8 +170,7 @@ Images – Code Institute
 -	md.jpg
 -	pt.jpg
 -	monkees.jpg
-Video – Code Institute
--	TheMonkees.mp4
+
 #### Assets
 All album covers - https://www.allmusic.com/artist/the-monkees-mn0000478603/discography 
 
