@@ -228,21 +228,22 @@
                 <h4 class="modal-title" id="myModalLabel">Ticket Order</h4>
               </div>
           <div class="modal-body">
-            <form>
+            <form data-toggle="validator" role="form">
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email*" required>
           </div>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-            <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+            <input type="password" name="password" class="form-control" id="password" placeholder="Password*" required>
           </div>
+          <div class="help-block">*Password requires minimum of 6 characters</div>
           <div class="checkbox">
             <label><input type="checkbox"> Tick box to agree for email to be shared with registered third parties</label>
           </div>
           <div class="input-group">
             <span class="input-group-addon">Tickets</span>
-            <input id="msg" type="text" class="form-control" name="msg" placeholder="No more than 8 tickets permitted">
+            <input id="number" type="number" class="form-control" name="number" placeholder="No more than 8 tickets permitted" min="1" max="8" required>
           </div>
           <br>
           <button type="submit" class="btn btn-success">Confirm!</button>
@@ -264,15 +265,15 @@
             <form>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-            <input id="full name" type="text" class="form-control" name="full name" placeholder="Full Name">
+            <input id="full name" type="text" class="form-control" name="full name" placeholder="Full Name*" required>
           </div>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-            <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+            <input type="email" name="email" class="form-control" id="email" placeholder="Email*" required>
           </div>
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-            <input id="date" type="date" class="form-control" name="date" placeholder="Preferred Date">
+            <input id="date" type="date" class="form-control" name="date" placeholder="Preferred Date*" required>
           </div>
           <div class="input-group">
             <div class="radio">

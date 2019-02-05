@@ -218,8 +218,9 @@
 
 .fifty-years-news {
     padding: 10px;
-    margin: 10px;
-    
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    border: 1px solid #C43232;
 }
 
 .main-video-container {
@@ -240,6 +241,11 @@
 
 .music-container {
     margin: 40px 0;
+}
+
+.disco-container {
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .back-story-container, .booking-container {
@@ -428,8 +434,6 @@
   display: none;
 }
 
-
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -547,7 +551,6 @@
     color: #fafafa;
 }
 
-
 /*---------------Footer Lower---------------*/
 
 .lower-footer-style {
@@ -581,7 +584,6 @@
     margin-bottom: 10px;
     background-color: #6CB8AC; /*Green*/
 }
-
 
 /*---------------Buttons--------------*/
 
@@ -646,6 +648,14 @@
     width: 100%;
     text-align: right;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+   .disco-container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+   } 
 }
 
 
