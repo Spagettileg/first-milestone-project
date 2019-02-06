@@ -43,7 +43,7 @@
 .alert-container {
     padding-left: 0;
     padding-right: 0;
-}
+}    
 
 .site-wide-alert {
     font-family: Bangers, cursive;
@@ -264,37 +264,13 @@
     font-family: Bangers, cursive;
     font-weight: 200;
     font-size: 20px;
+    text-align: justify;
     color: #C43232;
 }
 
 .check-tickets-details, .book-tickets-details {
     font-family: boogaloo, cursive;
-}
-
-.check-tickets-details button, .book-tickets-details button {
-    font-size: 14px; 
-}
-
-.check-tickets-details a, .book-ticket-details a {
-    background-color: #C43232;
-    border-color: #C43232;
-    color: #f7eed4;
-    font-weight: bold; 
-    font-size: 14px; 
-    border-radius: 50%;
-    width: 65px;
-    text-align: center; 
-}
-
-.check-tickets-details a:hover, .book-tickets-details a:hover {
-    background-color: #6CB8AC; /*Change to green once hovered*/
-    border-color: #6CB8AC;
-    color: #000000;
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; /*Opera*/
-    -moz-transition: all 0.5s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+    text-align: center;
 }
 
 .booking-writeup {
@@ -588,9 +564,9 @@
 /*---------------Buttons--------------*/
 
 .btn-cta {
-    font-weight: bold;
-    border-radius: 23px;
+    border-radius: 50%;
     width: 120px;
+    text-align: center; 
 }
 
 .btn-red {
@@ -614,7 +590,35 @@
 .btn-red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
-    color: white;
+    color: #fafafa;
+}
+
+.book-tickets-details button {
+    font-size: 14px; 
+    font: bold;
+}
+
+.check-tickets-details a {
+    background-color: #C43232;
+    border-color: #C43232;
+    color: #f7eed4;
+    font-weight: bold; 
+    font-size: 14px; 
+    border-radius: 50%;
+    width: 60px;
+    text-align: center; 
+    
+}
+
+.check-tickets-details a:hover, .book-tickets-details a:hover {
+    background-color: #6CB8AC; /*Change to green once hovered*/
+    border-color: #6CB8AC;
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out; /*Opera*/
+    -moz-transition: all 0.5s ease-in-out; /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
 }
 
 .booking-writeup button {
@@ -624,6 +628,9 @@
     background-color: #990099; /*lilac*/
     border-color: #990099;
     color:#ffccff;
+    font-weight: bold;
+    border-radius: 23px;
+    width: 120px;
 }
 
 .booking-writeup button:hover {
