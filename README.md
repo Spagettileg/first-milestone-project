@@ -106,6 +106,16 @@ The user can scroll to end of page to take up an opportunity to book the band fo
 
 ***
 
+### Features left to implement
+-	Add conditional formatting to password data entry in modal design
+-	Create links from band’s albums in music.html to itunes, serving to increase commercial capability of web-site design 
+-	Add television media material in addition to existing video and audio media
+-	Add a x4 band member ‘image ribbon’ as part of header that is replicated on all pages and animate via hover.css
+-	Build a link for ticket orders and band bookings to an external server
+-	Add a web hit counter to understand popularity of web-site
+-	Create a fans feedback function to help promote continuous improvement of UXD (User Experience Design) for user enjoyment and UCD (User Centred Design) to create great products 
+
+
 ### Technologies Used
 ##### HTML5 
 HTML5 was used to create basic structure
@@ -164,6 +174,7 @@ All audio sounds – Code Institute
 -	DaydreamBeliever.mp3
 -	ImABeliever.mp3
 -	SteppingStone.mp3
+	
 Images – Code Institute
 -	dj.jpg
 -	mn.jpg
@@ -175,6 +186,7 @@ Images – Code Institute
 All album covers - https://www.allmusic.com/artist/the-monkees-mn0000478603/discography 
 
 themonkeeslogo.jpg – pinterest.com
+
 Images - https://www.allmusic.com
 -	20th Anniversary Tour 1986.png
 -	Birds Bees & Monkees 1968.png
@@ -191,6 +203,7 @@ Images - https://www.allmusic.com
 -	Pool it 1987.png
 -	The Monkees 1966.png
 -	The Monkees Present 1969.png 
+	
 ‘Good Times’ video – You Tube - https://youtu.be/T5Q_FbVf0Cs
 
 Heyhey.jpg – fanpop.com
@@ -202,12 +215,16 @@ Eventsandtickets.jpg – abcnews.go.com
 ***
 
 ### Acknowledgements
-Theo Despoudis (Mentor)
+Theo Despoudis (Mentor) - For his guidance with the process of delivering my project and reminders for keeping the code simple, yet effective. 
 
-@Eventyred_Mentor – Simen Daehlin
+Slack Community and the following experts to keep me honest.
+>@Eventyred_Mentor – Simen Daehlin
 
-@Shane Muirhead – Shane Muirhead
+>@Shane Muirhead – Shane Muirhead
 
-@Abonello_Lead – Anthony Bonello
+>@Abonello_Lead – Anthony Bonello
 
-@JoWings_Lead – Joke Heyndels
+>@JoWings_Lead – Joke Heyndels
+
+Special thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, training delivery and generating good confidence to coding.
+
