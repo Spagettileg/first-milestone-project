@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700|Boogaloo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Bangers:100,200,300,400,500,600,700|Crimson Text:100,200,300,400,500,600,700');
 
 /*----------Special Padding / Margin / Text----------*/
 
@@ -47,27 +47,37 @@
 
 .site-wide-alert {
     font-family: Bangers, cursive;
+    font-size: large;
     color: #C43232;
     text-align: center;
     background-color: #E5C66C;
     border-color: #E5C66C;
-    padding: 5px 20px;
+    padding: 15px 30px;
     margin-bottom: 0;
     border: 2px solid transparent;
     border-radius: 0;
 }
 
 .site-wide-alert a {
-    border: 0;
-    padding: 1px;
-    margin-left: 10px;
-    text-decoration: none;
-    display: inline-block;
+    height: 40px;
+    width: 75px;
+    padding: 8px;
+    padding-left: 5px;
+    margin: 2px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
     background-color: #C43232;
-    border-color: #C43232;
-    color: #E5C66C;
-    height: 25px;
-    border-radius: 5%;
+    transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+}
+
+.site-wide-alert a:hover {
+    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    text-decoration: none;
 }
 
 /*------------Navbar----------------*/
@@ -198,11 +208,11 @@
     text-align: center;
     font-family: Bangers, cursive;
     font-size: x-large;
-    color: #f7eed4;
+    color: #ffffff;
 }
 
 .fifty-years-container {
-    font-family: Boogaloo, cursive;
+    font-family: Crimson Text, serif;
     font-weight: 100;
     text-align: justify;
 } 
@@ -221,6 +231,7 @@
     margin-top: 10px;
     margin-bottom: 10px;    
     border: 1px solid #C43232;
+    color: #000000;
 }
 
 .main-video-container {
@@ -269,12 +280,12 @@
 }
 
 .check-tickets-details, .book-tickets-details {
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
     text-align: left;
 }
 
 .booking-writeup {
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
     text-align: center;
     font-size: larger;
 }
@@ -284,7 +295,7 @@
 .video-heading {
     margin: 5px;
     padding: 0;
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
     font-size: 12px;
     font-weight: 200;
     text-align: center;
@@ -314,7 +325,7 @@
 
 .music-background h5 {
     margin-top: 5px;
-    font-family: Boogaloo, cursive;
+    font-family: Crimson Text, serif;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -351,13 +362,13 @@
 .disco-item h3 {
     padding: 0;
     margin: 0;
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
 }
 
 .disco-item p {
     padding: 0;
     margin: 0;
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
 }
 
 .disco-item::before {
@@ -366,7 +377,7 @@
     left: 2.5em; /*further refines positioning of the dates*/
     top: 3em;
     display: block;
-    font-family: Boogaloo, cursive;
+    font-family: Crimson Text, serif;
     font-weight: 500;
     font-size: .8em;
     padding: 0;
@@ -388,7 +399,7 @@
 /*------------Background Story (HeyHey!)----------*/
 
 .back-story-writeup {
-    font-family: boogaloo, cursive;
+    font-family: Crimson Text, serif;
     text-align: justify;
     font-size: larger;
 }
@@ -439,7 +450,7 @@
 
 /* Container for image text */
 .caption-container {
-  font-family: boogaloo, cursive;
+  font-family: Crimson Text, serif;
   font-size: x-large; 
   text-align: center;
   background-color: #222;
@@ -532,7 +543,7 @@
 .lower-footer-style {
     color: #fafafa; /*off-white*/
     min-height: 20px;
-    font-family: Oswald, sans-serif;
+    font-family: Crimson Text, serif;
     font-size: smaller;
     text-align: center;
     margin: 0;
