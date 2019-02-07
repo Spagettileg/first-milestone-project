@@ -25,6 +25,10 @@
     background-color: #f7eed4;
 }
 
+.bg-color-yellow-dark {
+    background-color: #f3e6be;
+}
+
 .bg-color-lilac {
     background-color: #ffe6ff;
 }
@@ -83,7 +87,7 @@
 /*------------Navbar----------------*/
 
 .navbar {
-    height: 134px;
+    height: 150px;
     margin-bottom: 0;
     border: none;
     padding: 0;    
@@ -99,26 +103,33 @@
 }
 
 .navbar-nav li a:hover {
-    background-color: #fafafa;
-    color: #C43232;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out; /*Opera*/
+    -moz-transition: all 1.5s ease-in-out; /*Windows*/
+    -webkit-transition: all 1.5s ease-in-out; /*Apple*/
+
 }
 
 .navbar-brand {
-    margin: 0px;
-    padding: 0px;
+    margin: 3px;
+    padding: 3px;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 
 .navbar-collapse {
     margin: 0;
-    background-color: #C43232;
-}
-
-.navbar-collapse ul li a {
-    color: #fafafa;
+    background-color: #C43232; 
+    color: #ffffff;
 }
 
 /*-------------Images------*/
@@ -232,6 +243,12 @@
     margin-bottom: 10px;    
     border: 1px solid #C43232;
     color: #000000;
+}
+
+.Listen-up, .New-Tour-Dates {
+    padding: 10px;
+    margin: 10px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-video-container {
