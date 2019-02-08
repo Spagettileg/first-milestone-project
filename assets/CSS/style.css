@@ -320,10 +320,11 @@
 
 /*----------------Video---------------*/
 
-.video-heading {
+.video-notice {
     margin: 5px;
-    padding: 0;
+    padding: 5px;
     font-family: Crimson Text, serif;
+    font-variant: small-caps;
     font-size: 12px;
     font-weight: 200;
     text-align: center;
@@ -332,6 +333,7 @@
 
 .video-bg {
     background-color: #f7eed4;
+    padding-right: 15px;
 }
 
 .video-image {
