@@ -68,7 +68,7 @@
     padding: 8px;
     padding-left: 5px;
     margin: 2px;
-    color: #ffffff;
+    color: #fafafa;
     text-align: center;
     font-size: 15px;
     border-radius: 50%;
@@ -104,7 +104,7 @@
 
 .navbar-nav li a:hover {
     background-color: transparent;
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -123,13 +123,13 @@
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: #fafafa;
 }
 
 .navbar-collapse {
     margin: 0;
     background-color: #C43232; 
-    color: #ffffff;
+    color: #fafafa;
 }
 
 /*-------------Images------*/
@@ -214,12 +214,12 @@
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
 .headline-container {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 5px;
     text-align: center;
     font-family: Bangers, cursive;
     font-size: x-large;
-    color: #ffffff;
+    color: #fafafa;
 }
 
 .fifty-years-container {
@@ -248,13 +248,13 @@
 .Listen-up, .New-Tour-Dates {
     padding: 10px;
     margin: 10px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-video-container {
-     margin-left: 0;
-     margin-right: 0;
-     padding-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
 }
 
 .timeline-container {
@@ -299,12 +299,23 @@
 .check-tickets-details, .book-tickets-details {
     font-family: Crimson Text, serif;
     text-align: left;
+    font-size: medium;
+}
+
+.back-story-writeup {
+    font-family: Crimson Text, serif;
+    text-align: justify;
+    font-size: larger;
+    padding: 10px;
+    margin: 0px;
 }
 
 .booking-writeup {
     font-family: Crimson Text, serif;
     text-align: center;
     font-size: larger;
+    padding: 10px;
+    margin: 0px;
 }
 
 /*----------------Video---------------*/
@@ -320,13 +331,12 @@
 }
 
 .video-bg {
-    flex: 1 0 auto;
     background-color: #f7eed4;
 }
 
 .video-image {
-    position: relative;
-    height: 85vh;
+    padding: 10px;
+    margin: 10px;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -344,7 +354,7 @@
     margin-top: 5px;
     font-family: Crimson Text, serif;
     font-weight: 600;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .sound-control {
@@ -411,14 +421,6 @@
     border-radius: 12px; /*creates a disc shape, feeding from width & height 12px*/
     content: ""; /*No content other then the border itself*/
     background: #C43232; /*Red*/
-}
-
-/*------------Background Story (HeyHey!)----------*/
-
-.back-story-writeup {
-    font-family: Crimson Text, serif;
-    text-align: justify;
-    font-size: larger;
 }
 
 /*------------Band Carousel-----------*/
@@ -509,7 +511,7 @@
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 5s; /*Timing allows user to read narrative*/
   animation-name: fade;
   animation-duration: 5s;
 }
@@ -579,14 +581,14 @@
     background-color: #f7eed4; /*Yellow*/
 }
 
-.block-divider--back-story {
+.block-divider--hot-news, .block-divider--back-story {
     height: 1px;
     border: 0;
-    width: 50%;
+    width: 10%;
     padding: 0;
     margin: 1px auto;
     margin-bottom: 10px;
-    background-color: #6CB8AC; /*Green*/
+    background-color: #C43232; /*Red*/
 }
 
 /*---------------Buttons--------------*/
@@ -629,11 +631,11 @@
 .check-tickets-details a {
     background-color: #C43232;
     border-color: #C43232;
-    color: #f7eed4;
+    color: #fafafa;
     font-weight: bold; 
-    font-size: 14px; 
+    font-size: 16px; 
     border-radius: 50%;
-    width: 60px;
+    width: 65px;
     text-align: center; 
     
 }
