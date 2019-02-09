@@ -199,17 +199,6 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.album-cover-image {
-    width: 100%;
-    max-width: 108px;
-}
-
-.album-cover-image-music {
-    width: 100%;
-    max-width: 190px;
-    margin-top: 20px;
-}
-
 /*-------------Containers-------------*/
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
@@ -367,62 +356,12 @@
 
 /*------------Discography----------*/
 
-.disco-heading {
-    font-family: Bangers, cursive;
-    font-size: x-large; 
-    color: #C43232;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
 
-.disco-items {
-    margin-bottom: 30px;
-    padding: 10px;
-    
-}
-
-.disco-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #C43232;
-    border-left: 1px solid;
-}
-
-.disco-item h3 {
-    padding: 0;
-    margin: 0;
-    font-family: Crimson Text, serif;
-}
-
-.disco-item p {
-    padding: 0;
-    margin: 0;
-    font-family: Crimson Text, serif;
-}
-
-.disco-item::before {
-    content: attr(dates);
-    position: absolute; /*fix the date just above the employers location*/
-    left: 2.5em; /*further refines positioning of the dates*/
-    top: 3em;
-    display: block;
-    font-family: Crimson Text, serif;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.disco-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px; /*Negative value allows disc to sit out on left hand border*/
-    border-radius: 12px; /*creates a disc shape, feeding from width & height 12px*/
-    content: ""; /*No content other then the border itself*/
-    background: #C43232; /*Red*/
+.album-cover-image-music {
+    width: 100%;
+    max-width: 190px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*------------Band Carousel-----------*/
@@ -431,10 +370,9 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: inherit;
   position: relative;
   margin: auto;
-  background-color: #f7eed4;
 }
 
 /* Hide the images by default */
