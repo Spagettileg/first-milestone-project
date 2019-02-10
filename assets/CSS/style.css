@@ -259,11 +259,6 @@
     margin: 40px 0;
 }
 
-.disco-container {
-    margin-left: 0;
-    margin-right: 0;
-}
-
 .back-story-container, .booking-container {
     padding: 0px;
     margin: 0px;
@@ -355,7 +350,6 @@
 
 /*------------Discography----------*/
 
-
 .album-cover-image-music {
     width: 100%;
     max-width: 190px;
@@ -369,9 +363,17 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: inherit;
-  position: relative;
-  margin: auto;
+    padding: 10px;
+    margin: 10px;
+    background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center; /*required to manage the horixontal centering of the 
+    group image design*/
 }
 
 /* Hide the images by default */
@@ -379,35 +381,19 @@
   display: none;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+/* Container for image text */
+.caption-container-music {
+  font-family: Crimson Text, serif;
+  font-size: x-large; 
+  text-align: center;
+  width: 139px;
+  background-color: #222;
+  padding: 2px 16px;
+  color: #fafafa;
 }
 
 /* Container for image text */
-.caption-container {
+.caption-container-heyhey {
   font-family: Crimson Text, serif;
   font-size: x-large; 
   text-align: center;
@@ -418,7 +404,7 @@
 
 /* Number text (1/9 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #fafafa;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -641,17 +627,12 @@
 @media only screen and (min-width: 992px) { /* For larger desktop: */
   .carousel-inner {
     width: 100%;
+    max-height: 200px;
     text-align: right;
   }
 }
 
-@media only screen and (min-width: 1200px) {
-   .disco-container {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-   } 
-}
+
 
 
 
