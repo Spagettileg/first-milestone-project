@@ -189,6 +189,11 @@
     group image design*/
 }
 
+.band-images-heyhey {
+    width: 100%;
+    max-width: 400px;
+}
+
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -237,6 +242,14 @@
     padding: 10px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Listen-up h2 {
+    font-family: bangers, cursive;
+}
+
+.New-Tour-Dates h2 {
+    font-family: bangers, cursive;
 }
 
 .main-video-container {
@@ -350,6 +363,11 @@
 
 /*------------Discography----------*/
 
+.album-cover-disco {
+    width: 100%;
+    max-width: 400px;
+}
+
 .album-cover-image-music {
     width: 100%;
     max-width: 190px;
@@ -384,9 +402,10 @@
 /* Container for image text */
 .caption-container-music {
   font-family: Crimson Text, serif;
-  font-size: x-large; 
+  font-size: medium; 
   text-align: center;
-  width: 139px;
+  width: 100%;
+  max-width: 400px;
   background-color: #222;
   padding: 2px 16px;
   color: #fafafa;
@@ -395,8 +414,10 @@
 /* Container for image text */
 .caption-container-heyhey {
   font-family: Crimson Text, serif;
-  font-size: x-large; 
+  font-size: medium; 
   text-align: center;
+  width: 100%;
+  max-width: 400px;
   background-color: #222;
   padding: 2px 16px;
   color: #fafafa;
@@ -404,7 +425,7 @@
 
 /* Number text (1/9 etc) */
 .numbertext {
-  color: #fafafa;
+  color: #000000;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
