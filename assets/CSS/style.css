@@ -41,7 +41,6 @@
     background-color: #525252; /*dark  grey*/
 }
 
-
 /*---------------Alert Heading---------*/
 
 .alert-container {
@@ -491,9 +490,29 @@
     -webkit-transition: all 0.5s ease-in-out; /*Apple*/
 }
 
-.social-links-footer li a i:hover {
-    background: #C43232; /*Red*/
-    color: #fafafa;
+.fa-facebook:hover {
+    background: #3b5998; /*Facebook Blue*/
+    color: #ffffff;
+}
+
+.fa-twitter:hover {
+    background: #55ACEE; /*Twitter Blue*/
+    color: #ffffff;
+}
+
+.fa-youtube:hover {
+    background: #E62117; /*Youtube Red*/
+    color: #ffffff;
+}
+
+.fa-instagram:hover {
+    background: #8a3ab9; /*Instagram Purple*/
+    color: #ffffff;
+}
+
+.fa-spotify:hover {
+    background: #1ED760; /*Spotify Green*/
+    color: #ffffff;
 }
 
 /*---------------Footer Lower---------------*/
