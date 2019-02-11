@@ -403,12 +403,12 @@
 /* Container for image text */
 .caption-container-music {
   font-family: Crimson Text, serif;
-  font-size: medium; 
+  font-size: 12px; 
   text-align: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 300px;
   background-color: #222;
-  padding: 2px 16px;
+  padding-top: 1px;
   color: #fafafa;
 }
 
@@ -560,23 +560,31 @@
     color: #fafafa;
     background-color: #C43232;
     border-color: #C43232;
+    font-family: bangers, cursive;
 }
 
 .btn-green {
     color: #fafafa;
     background-color: #6CB8AC;
     border-color: #6CB8AC;
+    font-family: bangers, cursive;
 }
 
-.btn-red:hover,
+.btn-red:hover, .btn-green:hover
 
-.btn-red:active,
+.btn-red:active, .btn-green:active
 
-.btn-red:focus,
+.btn-red:focus, .btn-green:focus
 
 .btn-red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    border-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    color: #fafafa;
+}
+
+.btn-green:active:focus {
+    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    border-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
     color: #fafafa;
 }
 
@@ -589,12 +597,12 @@
     background-color: #C43232;
     border-color: #C43232;
     color: #fafafa;
+    font-family: bangers, cursive;
     font-weight: bold; 
     font-size: 16px; 
     border-radius: 50%;
     width: 65px;
     text-align: center; 
-    
 }
 
 .check-tickets-details a:hover, .book-tickets-details a:hover {
