@@ -364,13 +364,14 @@
 /*------------Discography----------*/
 
 .album-cover-disco {
-    width: 100%;
-    max-width: 400px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 25px;
 }
 
 .album-cover-image-music {
-    width: 100%;
-    max-width: 190px;
+    Height: 190px;
+    Width: 190px;
     margin-top: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -421,15 +422,6 @@
   background-color: #222;
   padding: 2px 16px;
   color: #fafafa;
-}
-
-/* Number text (1/9 etc) */
-.numbertext {
-  color: #000000;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
 }
 
 .dots-circles {
