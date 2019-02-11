@@ -3,12 +3,10 @@
 /*----------Special Padding / Margin / Text----------*/
 
 .row {
-    margin-left: 0; /*helps remove unecessary white space on right vertical*/ 
-    margin-right: 0; /*as above*/
-}
-
-.row-table {
-    display: table; /*Columns will remain of equal height, regardless of content*/
+    margin-left: 0;
+    /*helps remove unecessary white space on right vertical*/
+    margin-right: 0;
+    /*as above*/
 }
 
 /*---------------Colours--------------*/
@@ -38,7 +36,8 @@
 }
 
 .bg-color-lower-footer {
-    background-color: #525252; /*dark  grey*/
+    background-color: #525252;
+    /*dark  grey*/
 }
 
 /*---------------Alert Heading---------*/
@@ -46,7 +45,7 @@
 .alert-container {
     padding-left: 0;
     padding-right: 0;
-}    
+}
 
 .site-wide-alert {
     font-family: Bangers, cursive;
@@ -79,7 +78,8 @@
 }
 
 .site-wide-alert a:hover {
-    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    background-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
     text-decoration: none;
 }
 
@@ -89,9 +89,10 @@
     height: 150px;
     margin-bottom: 0;
     border: none;
-    padding: 0;    
+    padding: 0;
     z-index: 1;
-    background-color: #C43232; /*Red*/
+    background-color: #C43232;
+    /*Red*/
     font-family: Bangers, cursive;
 }
 
@@ -110,10 +111,12 @@
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
     transition: all 1.5s ease-in-out;
-    -o-transition: all 1.5s ease-in-out; /*Opera*/
-    -moz-transition: all 1.5s ease-in-out; /*Windows*/
-    -webkit-transition: all 1.5s ease-in-out; /*Apple*/
-
+    -o-transition: all 1.5s ease-in-out;
+    /*Opera*/
+    -moz-transition: all 1.5s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 1.5s ease-in-out;
+    /*Apple*/
 }
 
 .navbar-brand {
@@ -127,7 +130,7 @@
 
 .navbar-collapse {
     margin: 0;
-    background-color: #C43232; 
+    background-color: #C43232;
     color: #fafafa;
 }
 
@@ -143,7 +146,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center; /*required to manage the horixontal centering of the 
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
@@ -157,7 +161,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center; /*required to manage the horixontal centering of the 
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
@@ -171,7 +176,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center; /*required to manage the horixontal centering of the 
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
@@ -185,7 +191,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center; /*required to manage the horixontal centering of the 
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
@@ -204,6 +211,7 @@
 }
 
 /*-------------Containers-------------*/
+
 /* To include tailoring for Home / Music / HeyHey! / Events & Tickets */
 
 .headline-container {
@@ -219,9 +227,10 @@
     font-family: Crimson Text, serif;
     font-weight: 100;
     text-align: justify;
-} 
+}
 
-.fifty-years-container a { /*Good Times link*/
+.fifty-years-container a {
+    /*Good Times link*/
     text-decoration: none;
     color: #C43232;
 }
@@ -233,12 +242,13 @@
 .fifty-years-news {
     padding: 10px;
     margin-top: 10px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
     border: 1px solid #C43232;
     color: #000000;
 }
 
-.Listen-up, .New-Tour-Dates {
+.Listen-up,
+.New-Tour-Dates {
     padding: 10px;
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -272,7 +282,8 @@
     margin: 40px 0;
 }
 
-.back-story-container, .booking-container {
+.back-story-container,
+.booking-container {
     padding: 0px;
     margin: 0px;
     padding-bottom: 10px;
@@ -284,7 +295,8 @@
 
 /*-----------Check Tickets Book Tickets Book The Monkees--------------*/
 
-.check-tickets, .book-tickets {
+.check-tickets,
+.book-tickets {
     font-family: Bangers, cursive;
     font-weight: 200;
     font-size: 20px;
@@ -292,7 +304,8 @@
     color: #C43232;
 }
 
-.check-tickets-details, .book-tickets-details {
+.check-tickets-details,
+.book-tickets-details {
     font-family: Crimson Text, serif;
     text-align: left;
     font-size: medium;
@@ -341,8 +354,9 @@
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center; 
-    justify-content: center; /*required to manage the horixontal centering of the 
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
@@ -367,6 +381,7 @@
     width: 300px;
     height: 300px;
     margin-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .album-cover-image-music {
@@ -378,9 +393,12 @@
 
 /*------------Band Carousel-----------*/
 
-* {box-sizing:border-box}
+* {
+    box-sizing: border-box
+}
 
 /* Slideshow container */
+
 .slideshow-container {
     padding: 10px;
     margin: 10px;
@@ -390,140 +408,175 @@
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center; 
-    justify-content: center; /*required to manage the horixontal centering of the 
+    align-items: center;
+    justify-content: center;
+    /*required to manage the horixontal centering of the 
     group image design*/
 }
 
 /* Hide the images by default */
+
 .mySlides {
-  display: none;
+    display: none;
 }
 
 /* Container for image text */
+
 .caption-container-music {
-  font-family: Crimson Text, serif;
-  font-size: 12px; 
-  text-align: center;
-  width: 100%;
-  max-width: 300px;
-  background-color: #222;
-  padding-top: 1px;
-  color: #fafafa;
+    font-family: Crimson Text, serif;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    background-color: #222;
+    margin-top: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #fafafa;
 }
 
 /* Container for image text */
+
 .caption-container-heyhey {
-  font-family: Crimson Text, serif;
-  font-size: medium; 
-  text-align: center;
-  width: 100%;
-  max-width: 400px;
-  background-color: #222;
-  padding: 2px 16px;
-  color: #fafafa;
+    font-family: Crimson Text, serif;
+    font-size: 13px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #222;
+    padding: 2px 16px;
+    margin-top: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #fafafa;
 }
 
 .dots-circles {
-  padding-top: 10px; 
-  padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
 
 /* Fading animation */
+
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s; /*Timing allows user to read narrative*/
-  animation-name: fade;
-  animation-duration: 5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 5s;
+    /*Timing allows user to read narrative*/
+    animation-name: fade;
+    animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-} 
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
 
 /*---------------Social Media---------------*/
-/* To include styling for social media fonts > font awesome */ 
+
+/* To include styling for social media fonts > font awesome */
 
 .bg-color-social-container {
     background-color: #6CB8AC;
     min-height: 20px;
     margin: 0;
-    padding-top: 10px 
+    padding-top: 10px
 }
 
 .social-links-footer li a i {
     width: 30px;
     height: 30px;
     padding: 12px 0;
-    border-radius: 50%; /*Enables creation of circle where width & height of same value*/
-    font-size: 13px; /*Enables icon to sit within border*/  
+    border-radius: 50%;
+    /*Enables creation of circle where width & height of same value*/
+    font-size: 13px;
+    /*Enables icon to sit within border*/
     line-height: 7px;
     text-align: center;
-    color: #000000; /*Black*/
-    background: #f7eed4; /*Yellow*/
+    color: #000000;
+    /*Black*/
+    background: #f7eed4;
+    /*Yellow*/
     transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; /*Opera*/
-    -moz-transition: all 0.5s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+    -o-transition: all 0.5s ease-in-out;
+    /*Opera*/
+    -moz-transition: all 0.5s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out;
+    /*Apple*/
 }
 
 .fa-facebook:hover {
-    background: #3b5998; /*Facebook Blue*/
+    background: #3b5998;
+    /*Facebook Blue*/
     color: #ffffff;
 }
 
 .fa-twitter:hover {
-    background: #55ACEE; /*Twitter Blue*/
+    background: #55ACEE;
+    /*Twitter Blue*/
     color: #ffffff;
 }
 
 .fa-youtube:hover {
-    background: #E62117; /*Youtube Red*/
+    background: #E62117;
+    /*Youtube Red*/
     color: #ffffff;
 }
 
 .fa-instagram:hover {
-    background: #8a3ab9; /*Instagram Purple*/
+    background: #8a3ab9;
+    /*Instagram Purple*/
     color: #ffffff;
 }
 
 .fa-spotify:hover {
-    background: #1ED760; /*Spotify Green*/
+    background: #1ED760;
+    /*Spotify Green*/
     color: #ffffff;
 }
 
 /*---------------Footer Lower---------------*/
 
 .lower-footer-style {
-    color: #fafafa; /*off-white*/
+    color: #fafafa;
+    /*off-white*/
     min-height: 20px;
     font-family: Crimson Text, serif;
-    font-size: smaller;
+    font-size: 12px;
     text-align: center;
     margin: 0;
-    padding-top: 5px 
+    padding-top: 5px
 }
 
 /*-------------Block Dividers---------*/
@@ -535,61 +588,62 @@
     padding: 0;
     margin: 1px auto;
     margin-bottom: 10px;
-    background-color: #f7eed4; /*Yellow*/
+    background-color: #f7eed4;
+    /*Yellow*/
 }
 
-.block-divider--hot-news, .block-divider--back-story {
+.block-divider--hot-news,
+.block-divider--back-story {
     height: 1px;
     border: 0;
     width: 10%;
     padding: 0;
     margin: 1px auto;
     margin-bottom: 10px;
-    background-color: #C43232; /*Red*/
+    background-color: #C43232;
+    /*Red*/
 }
 
 /*---------------Buttons--------------*/
 
 .btn-cta {
     border-radius: 50%;
-    width: 120px;
-    text-align: center; 
+    width: 100px;
+    text-align: center;
 }
 
 .btn-red {
     color: #fafafa;
     background-color: #C43232;
     border-color: #C43232;
-    font-family: bangers, cursive;
+    font-family: Crimson Text, serif;
+    font-weight: 300;
 }
 
 .btn-green {
     color: #fafafa;
     background-color: #6CB8AC;
     border-color: #6CB8AC;
-    font-family: bangers, cursive;
+    font-family: Crimson Text, serif;
+    font-weight: 300;
 }
 
-.btn-red:hover, .btn-green:hover
+.btn-red:hover,
 
-.btn-red:active, .btn-green:active
+.btn-red:active,
 
-.btn-red:focus, .btn-green:focus
+.btn-red:focus,
 
 .btn-red:active:focus {
-    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
-    border-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
-    color: #fafafa;
-}
-
-.btn-green:active:focus {
-    background-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
-    border-color: rgb(162, 42, 42); /*slight contrast to #C43232 red*/
+    background-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
+    border-color: rgb(162, 42, 42);
+    /*slight contrast to #C43232 red*/
     color: #fafafa;
 }
 
 .book-tickets-details button {
-    font-size: 14px; 
+    font-size: 14px;
     font: bold;
 }
 
@@ -598,31 +652,37 @@
     border-color: #C43232;
     color: #fafafa;
     font-family: bangers, cursive;
-    font-weight: bold; 
-    font-size: 16px; 
+    font-weight: bold;
+    font-size: 16px;
     border-radius: 50%;
     width: 65px;
-    text-align: center; 
+    text-align: center;
 }
 
-.check-tickets-details a:hover, .book-tickets-details a:hover {
-    background-color: #6CB8AC; /*Change to green once hovered*/
+.check-tickets-details a:hover,
+.book-tickets-details a:hover {
+    background-color: #6CB8AC;
+    /*Change to green once hovered*/
     border-color: #6CB8AC;
     color: #000000;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out; /*Opera*/
-    -moz-transition: all 0.5s ease-in-out; /*Windows*/
-    -webkit-transition: all 0.5s ease-in-out; /*Apple*/
+    -o-transition: all 0.5s ease-in-out;
+    /*Opera*/
+    -moz-transition: all 0.5s ease-in-out;
+    /*Windows*/
+    -webkit-transition: all 0.5s ease-in-out;
+    /*Apple*/
 }
 
 .booking-writeup button {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #990099; /*lilac*/
+    background-color: #990099;
+    /*lilac*/
     border-color: #990099;
-    color:#ffccff;
+    color: #ffccff;
     font-weight: bold;
     border-radius: 23px;
     width: 120px;
@@ -632,29 +692,26 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #660066; /*purple*/
+    background-color: #660066;
+    /*purple*/
     border-color: #660066;
-    color:#fafafa;
+    color: #fafafa;
 }
 
 /*--------------Media Queries---------*/
 
-@media only screen and (max-width: 768px) { /* For mobile phones: */
-  .col- {
-    width: 100%;
-  }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .col- {
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 992px) { /* For larger desktop: */
-  .carousel-inner {
-    width: 100%;
-    max-height: 200px;
-    text-align: right;
-  }
+@media only screen and (min-width: 992px) {
+    /* For larger desktop: */
+    .carousel-inner {
+        width: 100%;
+        max-height: 200px;
+        text-align: right;
+    }
 }
-
-
-
-
-
-
