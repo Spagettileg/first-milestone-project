@@ -442,12 +442,8 @@
     font-size: 13px;
     text-align: center;
     width: 100%;
-    max-width: 400px;
     background-color: #222;
     padding: 2px 16px;
-    margin-top: 8px;
-    padding-top: 1px;
-    padding-bottom: 1px;
     color: #fafafa;
 }
 
@@ -510,7 +506,7 @@
     background-color: #6CB8AC;
     min-height: 20px;
     margin: 0;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .social-links-footer li a i {
@@ -576,21 +572,12 @@
     font-size: 12px;
     text-align: center;
     margin: 0;
-    padding-top: 5px
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-------------Block Dividers---------*/
-
-.block-divider--footer {
-    height: 1px;
-    border: 0;
-    width: 100%;
-    padding: 0;
-    margin: 1px auto;
-    margin-bottom: 10px;
-    background-color: #f7eed4;
-    /*Yellow*/
-}
 
 .block-divider--hot-news,
 .block-divider--back-story {
@@ -700,18 +687,11 @@
 
 /*--------------Media Queries---------*/
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .col- {
+@media (max-width: 375px) {
+    .band-images-heyhey, .caption-container-heyhey {
+        height: auto;
         width: 100%;
+        
     }
 }
 
-@media only screen and (min-width: 992px) {
-    /* For larger desktop: */
-    .carousel-inner {
-        width: 100%;
-        max-height: 200px;
-        text-align: right;
-    }
-}
