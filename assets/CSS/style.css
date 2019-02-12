@@ -197,8 +197,8 @@
 }
 
 .band-images-heyhey {
-    width: 100%;
-    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .opaque-overlay {
@@ -400,8 +400,6 @@
 /* Slideshow container */
 
 .slideshow-container {
-    padding: 10px;
-    margin: 10px;
     background: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -687,11 +685,26 @@
 
 /*--------------Media Queries---------*/
 
-@media (max-width: 375px) {
+@media screen and (min-width: 320px) {
     .band-images-heyhey, .caption-container-heyhey {
         height: auto;
-        width: 100%;
+        max-width: 320px;
         
     }
 }
 
+@media screen and (min-width: 768px) {
+    .band-images-heyhey, .caption-container-heyhey {
+        height: auto;
+        max-width: 320px;
+        
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .band-images-heyhey, .caption-container-heyhey {
+        height: auto;
+        max-width: 320px;
+        
+    }
+}
