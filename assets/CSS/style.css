@@ -380,7 +380,8 @@
 .album-cover-disco {
     width: 300px;
     height: 300px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 45px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -686,25 +687,28 @@
 /*--------------Media Queries---------*/
 
 @media screen and (max-width: 320px) {
-    .band-images-heyhey img, .caption-container-heyhey {
+    .band-images-heyhey img,
+    .caption-container-heyhey {
         height: auto;
         max-width: 300px;
-        
+
     }
 }
 
 @media screen and (max-width: 768px) {
-    .band-images-heyhey img, .caption-container-heyhey {
+    .band-images-heyhey img,
+    .caption-container-heyhey {
         height: auto;
         max-width: 300px;
-        
+
     }
 }
 
 @media screen and (max-width: 1200px) {
-    .band-images-heyhey img, .caption-container-heyhey {
+    .band-images-heyhey img,
+    .caption-container-heyhey {
         height: auto;
         max-width: 300px;
-        
+
     }
 }
