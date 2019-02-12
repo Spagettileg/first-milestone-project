@@ -685,26 +685,26 @@
 
 /*--------------Media Queries---------*/
 
-@media screen and (min-width: 320px) {
-    .band-images-heyhey, .caption-container-heyhey {
+@media screen and (max-width: 320px) {
+    .band-images-heyhey img, .caption-container-heyhey {
         height: auto;
-        max-width: 320px;
+        max-width: 300px;
         
     }
 }
 
-@media screen and (min-width: 768px) {
-    .band-images-heyhey, .caption-container-heyhey {
+@media screen and (max-width: 768px) {
+    .band-images-heyhey img, .caption-container-heyhey {
         height: auto;
-        max-width: 320px;
+        max-width: 300px;
         
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .band-images-heyhey, .caption-container-heyhey {
+@media screen and (max-width: 1200px) {
+    .band-images-heyhey img, .caption-container-heyhey {
         height: auto;
-        max-width: 320px;
+        max-width: 300px;
         
     }
 }
