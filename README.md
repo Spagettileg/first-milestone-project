@@ -230,7 +230,7 @@ Slack Community and the following experts to keep me honest.
 - @JoWings_Lead – Joke Heyndels
 - @Spence_Mentor – Spencer Barribal
 
-Michael Park (Code Institute Tutor) – For support and guidance on responsive web design.
+Michael Park (Code Institute Tutor) – For his support and guidance on responsive web design.
 
 Special thanks to Matt Rudge, Timmy O'Mahony & Brian O'Grady (all Code Institute) for their time, training delivery and generating good confidence to coding.
 
