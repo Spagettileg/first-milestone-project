@@ -4,7 +4,7 @@ Welcome!
 
 ***
 Link to the website (via GitHub Pages) – update address
-https://first-milestone-project-spagettileg.c9users.io/index.html
+https://spagettileg.github.io/first-milestone-project/ 
 
 Link to Cloud9 Development
 https://ide.c9.io/spagettileg/first-milestone-project
