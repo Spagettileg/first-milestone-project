@@ -9,6 +9,10 @@
     /*as above*/
 }
 
+.none {
+    cursor: none; /*removes cursor from carousel imagery & */
+}
+
 /*---------------Colours--------------*/
 
 .bg-color-red {
@@ -413,9 +417,7 @@
     group image design*/
 }
 
-/* Hide the images by default */
-
-.mySlides {
+.myimages {
     display: none;
 }
 

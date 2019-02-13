@@ -144,6 +144,7 @@ User testing mobile and desktop configurations was conducted on the following we
 -   Image height variance was remedied through use of height: auto and width reduced to 300px from 320px to allow for some padding
 -   Further testing confirmed poor responsiveness on devices greater than 1200px. One further @media query (>1201px) was added to CSS file to counter this issue   
 -   Carousel images on music.html were re-sized (refer to ‘Credits – Content’ below) to 300px x 300px to support a good responsiveness test
+-   Carousel dot indicators and images had cursor set to none. Slight issue with dot being hovered and background colour appears. UXD based on no user interaction with images
 -   Edge : Emulator tool unreliable, so manual check on responsiveness showed no issues
 -   Safari : Background images on index.html, heyhey.html and eventsandtickets.html pages scrolled rather than stay fixed to allow latter containers to scroll over the same images 
 -   Opera : Hover functions on buttons does not work (all pages) and click required to find audio bar on video clip (music.html)
