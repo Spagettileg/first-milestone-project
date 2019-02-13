@@ -686,7 +686,7 @@
 
 /*--------------Media Queries---------*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) { /*mobile*/
     .band-images-heyhey img,
     .caption-container-heyhey {
         height: auto;
@@ -695,7 +695,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /*tablet*/
     .band-images-heyhey img,
     .caption-container-heyhey {
         height: auto;
@@ -704,7 +704,16 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) { /*desktop*/
+    .band-images-heyhey img,
+    .caption-container-heyhey {
+        height: auto;
+        max-width: 300px;
+
+    }
+}
+
+@media screen and (min-width: 1201px) { /*extra large devices*/
     .band-images-heyhey img,
     .caption-container-heyhey {
         height: auto;
