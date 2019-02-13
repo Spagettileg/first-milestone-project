@@ -152,6 +152,8 @@ User testing mobile and desktop configurations was conducted on the following we
 ***
 
 ### Deployment
+My project was deployed to GitHub pages. A repository was created in GitHub with public access. Headed to folder where project is tobe stored and cloned the new repository. Entered the project folder and added an index.html file. Add, commit and pushed changes to complete.
+
 A link to GitHub covering my deployed version of the website is located at the top of this document.
 
 ***
